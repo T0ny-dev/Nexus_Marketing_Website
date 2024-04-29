@@ -78,7 +78,7 @@ function Header() {
             </ul>
           </div>
           <div className="service__item">
-            <img src="/ia_nexus.png" alt="Service 2" />
+            <img src="/ia_nexus.webp" alt="Service 2" />
             <h3 id="ia">Inteligencia Artificial en Marketing</h3>
             <a id="ia_link" href="/chatnexus">Descubre ChatNexus IA</a>
           </div>

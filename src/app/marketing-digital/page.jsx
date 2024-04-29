@@ -41,7 +41,7 @@ function Planes () {
             title={"Mercadotecnia Digital"}
             subtitle={"Agencia Nexus Marketing"}
             parraf={"Conoce una nueva forma de hacer Marketing Digital con el uso de nuestro chatbot de Inteligencia Artificial. Nexus Marketing será tu agencia aliada en este proceso."}
-            image={"/marker.png"}
+            image={"/marker.webp"}
       />
       <Title text={"Marketing Digital"}/>
     <div className="Princing">

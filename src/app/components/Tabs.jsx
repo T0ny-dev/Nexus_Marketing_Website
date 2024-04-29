@@ -37,7 +37,7 @@ const Tabs = ({ tabs }) => {
         </div>
         <div className={`tab-pane ${activeTab === activeTab ? 'active' : ''}`}>
           <div className='tab__image'>
-            <img src="/Peeling.png" alt="" />
+            <img src="/Peeling.webp" alt="" />
           </div>
           <div className='tab__Service'>
             <h3>Entregables</h3>
