@@ -1,5 +1,4 @@
 "use client"
-import Hero from "./components/Hero";
 import Brand from "./components/Brand";
 import styles from "./page.module.css";
 import "./style.css"
@@ -23,12 +22,22 @@ export default function Home() {
   ];
   return (
     <main className={styles.main}>
-      <Hero
-      title={"ChatNexus IA"}
-      subtitle={"Agencia Nexus Marketing"}
-      parraf={"¡Descubre una nueva era en el Marketing Digital! Nos destacamos por nuestra innovadora estrategia respaldada por tecnología de vanguardia. Con nuestro ChatNexus IA impulsado por la Inteligencia Artificial, transformamos la manera en que interactúas con tu audiencia."}
-      image={"/hero_Nexus.png"}
-      />
+      <div className="hero">
+        <div className="left-container">
+          <h1>ChatNexus IA</h1>
+          <h2>Agencia Nexus Marketing</h2>
+          <p>¡Descubre una nueva era en el Marketing Digital! Nos destacamos por nuestra innovadora estrategia respaldada por tecnología de vanguardia. Con nuestro ChatNexus IA impulsado por la Inteligencia Artificial, transformamos la manera en que interactúas con tu audiencia.</p>
+          <a href="/contacto">
+            <img src="./button_consultoria.svg" alt="" />
+          </a>
+        </div>
+        <div className="logo-container">
+          <img src="./logo-agencia.svg" alt="Logo" />
+          <hr />
+        </div>
+        <div className="right-container" style={{ backgroundImage: `url("/hero_Nexus.png")` }}>
+        </div>
+      </div>
       <Brand/>
       <Tabs tabs={tabs}/>
       <SectionDouble/>

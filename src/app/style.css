@@ -1,3 +1,85 @@
+.hero {
+  background-color: #0A0A0A;
+  display: flex;
+  height: 100vh;
+  padding-top: 16vh;
+}
+
+.left-container {
+  width: 45%;
+  color: #fff;
+  padding-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-container h1 {
+  font-size: 3em;
+}
+
+.left-container img {
+  margin-top: 5vh;
+  width: 40%;
+}
+
+.left-container h2 {
+  font-size: 2em;
+  font-weight: normal;
+  margin-bottom: 3vh;
+}
+
+.right-container {
+  width: 45%;
+  background-image: url("/hero_Nexus.png");
+  background-size: cover;
+  background-repeat:none;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative; /* Necesario para posicionar el hr */
+}
+
+.logo-container img {
+  max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+  animation: spin 10s linear infinite; /* Aplica la animación de giro infinito */
+
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg); /* Gira la imagen 360 grados */
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative; /* Necesario para posicionar el hr */
+}
+
+.logo-container img {
+  max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
 .logo-container img {
   max-width: 80%;
   z-index: 1;
