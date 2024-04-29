@@ -1,0 +1,36 @@
+.plan {
+  padding-top: 25vh;
+  background-color: #0a0a0a;
+}
+
+
+.planes_planes p {
+  color: #fff;
+  padding: 5vh 3vw;
+  font-size: 3em;
+}
+
+.Princing {
+  display: flex;
+  border-top: 1px solid #fff;
+  padding: 5vh 3vw;
+  gap: 5vw;
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 2vh 3vw;
+}
+
+/*page css medias*/
+
+@media screen and (max-width:900px) {
+
+
+  .Princing {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

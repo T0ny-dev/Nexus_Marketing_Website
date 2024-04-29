@@ -1,0 +1,43 @@
+
+/* Estilos para la sección de servicios */
+.services {
+  background-color: #E2FF69;
+  padding: 10vh 3vw;
+  color: #0a0a0a;
+}
+
+.services h2 {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service {
+  width: calc(50% - 40px);
+  margin: 20px;
+  padding: 20px;
+  color: #fff;
+  border: none;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+}
+
+.service h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .service {
+    width: calc(100% - 40px);
+  }
+}

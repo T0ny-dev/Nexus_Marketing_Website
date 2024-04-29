@@ -1,0 +1,248 @@
+.header {
+  background-color: #0A0A0A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0vh 3vw;
+  border-bottom: #fff 1px solid;
+  font-family: "Inter", sans-serif;
+  font-weight:normal;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.header__links {
+  display: flex;
+}
+
+.header__links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__links li {
+  list-style:none;
+  color: #fff;
+  margin-left: 2.5vw;
+  border-bottom: 2px solid transparent;
+}
+
+.header__links li:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.header__button {
+  display: flex;
+}
+
+.header__button a {
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-right: 3vw;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+#contacto {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+#contacto:hover {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.header__button a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.flecha {
+  width: .7em;
+  margin-left: 4px;
+}
+
+.logo {
+  width: 3.5em;
+}
+
+/* div services*/
+
+/* Agrega estos estilos al final de tu archivo Header.css */
+
+.services__popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0a0a0a; /* Fondo de gradiente de color #181818 a #000000 con un punto intermedio #333333 */
+  display: flex;
+  justify-content: space-between;
+  padding: 20vh 5vw;
+  z-index: 999; /* Asegura que esté por encima de otros elementos */
+  animation: fadeIn 0.5s ease; /* Aplica la animación */
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.service__item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: center;
+}
+
+.service__item img {
+  width: 320px; /* Tamaño de la imagen */
+  height: auto;
+}
+
+.service__item h3 {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 2.5em;
+  margin-bottom: 5vh;
+}
+
+.service__item ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#ia {
+  font-size: 1.2em;
+  margin-left: 1vw;
+}
+
+.service__item ul li {
+  margin-bottom: 5px;
+  margin-bottom: 3vh;
+}
+
+.service__item a {
+  font-size: 1.4em;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff;
+}
+
+#ia_link {
+  margin-left: 1vw;
+  text-decoration: underline;
+  color: #E2FF69;
+}
+
+.close__button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background: transparent;
+  border: none;
+  color: #0a0a0a;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 2.5px 10px;
+}
+
+#consult {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background-color: transparent;
+  border: none;
+  background-color: #E2FF69;
+  color: #0a0a0a;
+  justify-content: space-between;
+  width: 260px;
+  padding: 0vh 0vw 0vh 2vw;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#consult img {
+  width: 25%;
+}
+
+.nexus_ia_beta {
+  position: relative;
+}
+
+.nexus_ia_beta::after {
+  content: "Beta";
+  background-color: #E2FF69;
+  border-radius: 50px;
+  padding: 2px 8px;
+  position: absolute;
+  font-weight: bolder;
+  top: -2px;
+  right: -50px;
+  font-size: 12px;
+  color: #0a0a0a;
+}
+
+/* css de recursos*/
+
+.resource__list {
+  position: absolute;
+  top: 100%; /* Posición debajo del elemento padre */
+  left: 12%;
+  background-color: #0A0A0A;
+  width: 200px; /* Ancho de la lista */
+  padding: 10px;
+  list-style: none;
+  margin: 0;
+  border: 1px solid #fff;
+}
+
+.resource__list li {
+  margin-bottom: 5px;
+  border: 1px solid transparent;
+}
+
+.resource__list a {
+  color: #fff;
+}
+
+#resource_link_simbol::after {
+  content: "▼"; /* Utilizamos el símbolo de triángulo apuntando hacia abajo */
+  font-size: 10px;
+  display: inline-block; /* Para asegurarnos de que el símbolo se muestre en línea */
+  margin-left: 5px; /* Ajustamos el margen izquierdo para separarlo del texto */
+  position: relative; /* Agregamos posición relativa */
+  top: -2px; /* Movemos el símbolo hacia arriba 5px */
+}
+
+@media only screen and (max-width: 1115px) {
+  .header {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.parraf {
+  padding: 10vh 3vw 5vh 3vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E2FF69;
+}
+
+.parraf__title {
+  width: 60%;
+}
+
+.parraf__title h2 {
+  font-size: 3em;
+  width: 70%;
+}
+
+.parraf__parraf {
+  width: 40%;
+}

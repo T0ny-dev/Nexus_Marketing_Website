@@ -1,0 +1,15 @@
+.button_arrow--transparent {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid #0a0a0a;
+  background-color: #E2FF69;
+  color: #0a0a0a;
+  justify-content: space-between;
+  width: 230px;
+  padding: 0vh 0vw 0vh 2vw;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}

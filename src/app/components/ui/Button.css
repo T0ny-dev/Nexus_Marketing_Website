@@ -1,0 +1,17 @@
+.button__primary {
+  border: #fff 1px solid;
+  padding: 2vh 4vw;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.button__primary:hover {
+  background-image: linear-gradient(to right, #E2FF69, #0A0A0A); /* Gradiente de izquierda a derecha con tus colores personalizados */
+  background-size: 900% auto; /* Aumentamos el tamaño del gradiente para que cubra todo el botón */
+  background-position: right center; /* Inicialmente posicionamos el gradiente completamente a la derecha */
+}

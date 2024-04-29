@@ -1,0 +1,66 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Esto permite que las cards se envuelvan si no caben todas en una fila */
+  gap: 20px; /* Espacio entre las cards */
+  padding:5vh 3vw 20vh 3vw ;
+  justify-content: space-between;
+  background-color: #E2FF69;
+}
+
+.card {
+  display: flex;
+  width: 290px; /* Ancho de cada card */
+  border: 1px solid #0a0a0a; /* Borde de la card */
+  border-radius: 8px; /* Bordes redondeados */
+  color: #fff;
+  background-color: #0a0a0a;
+  overflow: hidden; /* Para que la imagen no sobresalga de la card */
+  padding: 20px;
+}
+
+.card-info {
+  flex: 1; /* El div de la información ocupará todo el espacio disponible */
+   /* Espaciado interno */
+}
+
+.card-info h2 {
+  margin-top: 0;
+  margin-bottom: 2vh; /* Eliminar el margen superior del título */
+}
+
+.card-image {
+  width: 120px; 
+  display: flex;
+  align-items: center;/* Ancho del div de la imagen */
+}
+
+.card-image img {
+  width: 100%; /* La imagen ocupará todo el ancho del div */
+}
+
+@media screen and (max-width:1160px) {
+  .parraf {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .parraf__title {
+    width: 100%;
+  }
+
+  .parraf__title h2{
+    width: 100%;
+  }
+
+  .parraf__parraf {
+    width: 100%;
+    margin-top: 5vh;
+  }
+
+  .card-container {
+    justify-content: center;
+  }
+
+
+}
+

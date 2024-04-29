@@ -1,0 +1,141 @@
+.Navbarmobile {
+  display: none;
+  background-color: #0a0a0a;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  padding: 0vh 3vw;
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbarmobile img {
+  width: 60px;
+}
+
+#menu {
+  cursor: pointer;
+}
+
+#contacto_button {
+  padding: 12px 45px;
+  border-radius: 5px;
+  background-color: #E2FF69;
+  
+}
+
+#contacto_button a {
+  color: #0a0a0a;
+  font-weight: bold;
+}
+
+/* NavbarMobiles.css */
+
+.mobile-menu {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 85vh; /* Cambiado de height: 100%; */
+  background-color: #0a0a0a; /* Fondo semitransparente */
+  z-index: 3; /* Asegura que el menú esté sobre otros elementos */
+  overflow-y: scroll; /* Cambiamos 'auto' por 'scroll' */
+}
+
+.mobile-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5vh 0 50px 0; /* Alineación vertical centrada con espacio extra al final */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+
+.mobile-menu ul li {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mobile-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+/* Estilos para hover */
+.mobile-menu ul li a:hover {
+  color: #cccccc;
+  border-bottom: 2px solid #fff;
+}
+
+#services_link {
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+#services_link:hover {
+  border-bottom: 2px solid #fff;
+}
+
+#services_link::after {
+  content: " ↘"; /* Utilizamos el símbolo de triángulo apuntando hacia abajo */
+  font-size: 22px;
+  display: inline-block; /* Para asegurarnos de que el símbolo se muestre en línea */
+  margin-left: 5px; /* Ajustamos el margen izquierdo para separarlo del texto */
+  position: relative; /* Agregamos posición relativa */
+  top: 0px; /* Movemos el símbolo hacia arriba 5px */
+}
+
+
+.divisor {
+  width: 97%;
+}
+
+
+#contacto_margin {
+  margin-top: 8vh;
+}
+
+@media screen and (max-width: 1115px) {
+  .Navbarmobile {
+    display: flex; /* Mostrar el navbar solo en pantallas más pequeñas */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mobile-menu {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 130vh; /* Cambiado de height: 100%; */
+    background-color: #0a0a0a; /* Fondo semitransparente */
+    z-index: 3; /* Asegura que el menú esté sobre otros elementos */
+    overflow-y: scroll; /* Cambiamos 'auto' por 'scroll' */
+  }
+  
+}
+
+@media screen and (max-width: 375px) {
+  .mobile-menu {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 120vh; /* Cambiado de height: 100%; */
+    background-color: #0a0a0a; /* Fondo semitransparente */
+    z-index: 3; /* Asegura que el menú esté sobre otros elementos */
+    overflow-y: scroll; /* Cambiamos 'auto' por 'scroll' */
+  }
+  
+}
+

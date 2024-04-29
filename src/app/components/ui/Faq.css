@@ -1,0 +1,26 @@
+.faq {
+  margin-bottom: 20px;
+}
+
+.question {
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.answer {
+  padding: 10px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+  color: #fff;
+}
+
+.question.open {
+}
+
+.question.open + .answer {
+  max-height: 1000px; /* Valor suficientemente grande para mostrar el contenido completo */
+}

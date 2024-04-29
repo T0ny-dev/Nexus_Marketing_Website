@@ -1,0 +1,14 @@
+.button_arrow {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #0a0a0a;
+  color: #fff;
+  justify-content: space-between;
+  width: 230px;
+  padding: 0vh 0vw 0vh 2vw;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,93 @@
+.nexus {
+  padding-top: 25vh;
+  background-color: #0a0a0a;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.nexus_ia {
+  height: 50vh;
+  background-image: url("https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/ia_nexus_chat.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9pYV9uZXh1c19jaGF0LnBuZyIsImlhdCI6MTcxMzkxNjIzOSwiZXhwIjoxNzQ1NDUyMjM5fQ.iRiP4R_PyYwdxQnU9gYzvflZxNzbnXxOzWy8kqFh1v8&t=2024-04-24T00%3A49%3A56.170Z");
+  background-position:top;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #fff;
+}
+
+.overview {
+  padding: 10vh 3vw;
+  display: flex;
+}
+
+.overview__text {
+  color: #fff;
+  padding: 2vh 2vw;
+  width: 35%;
+}
+
+.overview__text h2 {
+  font-weight: 400;
+}
+
+.overview__text p {
+  margin-top: 2vh;
+  border-bottom: 1px solid #fff;
+}
+
+.overview__image {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.overview__image img {
+  width: 550px;
+  margin-top: -18vh;
+}
+
+body > main > div > div > div.title > h2::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #E2FF69;
+  border-radius: 50%;
+  margin-left: 5px;
+  animation: pulse 1s infinite alternate; /* Aquí se define la animación */
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
+
+
+@media screen and (max-width:1160px) {
+  .nexus_ia {
+    height: 55vh;
+    background-size: cover;
+  }
+  .overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .overview__text {
+    width: 100%;
+  }
+
+  .overview__image {
+    width: 100%;
+    margin-top: 18vh;
+    display: flex;
+    justify-content: center;
+  }
+
+
+}

@@ -1,0 +1,113 @@
+.tabs__container {
+  padding: 10vh 3vw;
+  width: 100%;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10vh;
+}
+
+.tab {
+  margin-bottom: 3vh;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-right: 3vw;
+  background-color: transparent;
+  border: 2px solid white;
+  font-size: 1.5em;
+}
+
+.tab.active {
+  border: 2px solid #E2FF69;
+  background-color: #E2FF69;
+  color: #0a0a0a;
+  font-weight: bold;
+}
+
+.tab:last-child {
+  margin-right: 0;
+}
+
+.tab__Service h3 {
+  color: #0a0a0a;
+}
+
+.tab__Service {
+  background-color: #F1F1F1;
+  width: 65%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3vh 3vw;
+  border-radius: 20px;
+}
+
+.tab__image {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  width: 30%;
+  background-color: #E2FF69;
+  border-radius: 20px;
+}
+.tab__image img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.tab__Service h3 {
+  font-size: 3em;
+  margin-bottom: 3vh;
+}
+
+.tab_buttons {
+  display: flex;
+}
+
+.tab-pane {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+}
+
+.span__box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.span__content {
+  background-color: #0a0a0a;
+  border-radius: 50px;
+  padding: 1vh 3vw;
+  margin-bottom: 3vh;
+  margin-right: 3vw;
+}
+
+@media screen and (max-width:900px) {
+  .tab__Service {
+    width: 100%;
+  }
+
+  .tab__Service h3 {
+    font-size: 2.5em;
+  }
+
+  .tab-pane {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+
+  .tab__image {
+    width: 100%;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+
+}
