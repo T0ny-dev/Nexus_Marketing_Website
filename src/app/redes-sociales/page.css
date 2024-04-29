@@ -21,7 +21,6 @@
   color: #fff;
   padding: 2vh 3vw;
 }
-
 .hero {
   background-color: #0A0A0A;
   display: flex;
@@ -88,7 +87,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column-reverse;
   position: relative; /* Necesario para posicionar el hr */
 }
 
@@ -126,20 +125,19 @@
   right: -4px;
 }
 
-
-/*page css medias*/
-
 @media screen and (max-width:900px) {
   .hero {
     flex-direction:column;
     height: auto;
+    padding-top: 0;
   }
   
   .left-container {
     width: 100%;
     text-align: start;
-    padding-top: 10vh;
+    padding-top: 0vh;
     padding-right: 3vw;
+    padding-bottom: 10vh;
   }
 
   .logo-container {
@@ -147,7 +145,6 @@
     flex-direction: row;
     padding-top: 10vh;
     margin-bottom: 10vh;
-    display: none;
   }
 
   .logo-container hr {
@@ -160,10 +157,5 @@
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-  }
-
-  .Princing {
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }

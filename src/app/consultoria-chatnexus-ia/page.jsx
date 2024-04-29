@@ -34,12 +34,22 @@ function Planes () {
 
   return (
     <div className="plan">
-      <Hero 
-            title={"Consultoría"}
-            subtitle={"Agencia Nexus Marketing"}
-            parraf={"Optimiza tu estrategia de marketing digital con nuestra consultoría especializada. Con ChatNexus IA, en solo 15 minutos, analizamos tu plan y desarrollamos estrategias digitales efectivas para potenciar tu presencia en línea."}
-            image={"https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/iPhone%2013.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9pUGhvbmUgMTMucG5nIiwiaWF0IjoxNzEzOTIwNzc1LCJleHAiOjE3NDU0NTY3NzV9.15q-nwjkeTLj9x4rhvlk6Mb_hHLLjysz6eszRkZ0psY&t=2024-04-24T02%3A05%3A32.910Z"}
-      />
+      <div className="hero">
+        <div className="left-container">
+          <h1>Consultoría</h1>
+          <h2>Agencia Nexus Marketing</h2>
+          <p>Optimiza tu estrategia de marketing digital con nuestra consultoría especializada. Con ChatNexus IA, en solo 15 minutos, analizamos tu plan y desarrollamos estrategias digitales efectivas para potenciar tu presencia en línea.</p>
+          <a href="/contacto">
+            <img src="./button_consultoria.svg" alt="" />
+          </a>
+        </div>
+        <div className="logo-container">
+          <img src="./logo-agencia.svg" alt="Logo" />
+          <hr />
+        </div>
+        <div className="right-container" style={{ backgroundImage: `url("https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/iPhone%2013.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9pUGhvbmUgMTMucG5nIiwiaWF0IjoxNzEzOTIwNzc1LCJleHAiOjE3NDU0NTY3NzV9.15q-nwjkeTLj9x4rhvlk6Mb_hHLLjysz6eszRkZ0psY&t=2024-04-24T02%3A05%3A32.910Z")` }}>
+        </div>
+      </div>
       <Title text={"ChatNexus IA"}/>
     <div className="Princing">
     <PricingPackage

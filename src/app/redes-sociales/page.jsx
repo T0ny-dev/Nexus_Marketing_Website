@@ -33,12 +33,22 @@ function Planes () {
 
   return (
     <div className="plan">
-      <Hero 
-            title={"Redes Sociales"}
-            subtitle={"Agencia Nexus Marketing"}
-            parraf={"Potencia tu presencia en redes sociales con nuestro servicio. Creamos contenido atractivo y gestionamos campañas publicitarias para conectar con tu audiencia. Imagina 100 anuncios generados en 15 minutos para impulsar tu marca al siguiente nivel."}
-            image={"/redes.png"}
-      />
+      <div className="hero">
+        <div className="left-container">
+          <h1>Redes Sociales</h1>
+          <h2>Agencia Nexus Marketing</h2>
+          <p>Potencia tu presencia en redes sociales con nuestro servicio. Creamos contenido atractivo y gestionamos campañas publicitarias para conectar con tu audiencia. Imagina 100 anuncios generados en 15 minutos para impulsar tu marca al siguiente nivel.</p>
+          <a href="/contacto">
+            <img src="./button_consultoria.svg" alt="" />
+          </a>
+        </div>
+        <div className="logo-container">
+          <img src="./logo-agencia.svg" alt="Logo" />
+          <hr />
+        </div>
+        <div className="right-container" style={{ backgroundImage: `url("/redes.webp")` }}>
+        </div>
+      </div>
       <Title text={"Social Media"}/>
     <div className="Princing">
     <PricingPackage

@@ -34,12 +34,22 @@ function Planes () {
 
   return (
     <div className="plan">
-      <Hero 
-            title={"Academias"}
-            subtitle={"Agencia Nexus Marketing"}
-            parraf={"Ofrecemos un servicio integral de apoyo para la creación de academias digitales. Desde la planificación inicial hasta la implementación, nuestro equipo experto te guiará en cada paso del proceso. Con soluciones personalizadas y asesoramiento especializado, te ayudamos a llevar tu visión educativa al mundo digital de manera efectiva y exitosa"}
-            image={"/academy.png"}
-      />
+      <div className="hero">
+        <div className="left-container">
+          <h1>Academias</h1>
+          <h2>Agencia Nexus Marketing</h2>
+          <p>Ofrecemos un servicio integral de apoyo para la creación de academias digitales. Desde la planificación inicial hasta la implementación, nuestro equipo experto te guiará en cada paso del proceso. Con soluciones personalizadas y asesoramiento especializado, te ayudamos a llevar tu visión educativa al mundo digital de manera efectiva y exitosa</p>
+          <a href="/contacto">
+            <img src="./button_consultoria.svg" alt="" />
+          </a>
+        </div>
+        <div className="logo-container">
+          <img src="./logo-agencia.svg" alt="Logo" />
+          <hr />
+        </div>
+        <div className="right-container" style={{ backgroundImage: `url("/academy.webp")` }}>
+        </div>
+      </div>
       <Title text={"Plataformas educativas"}/>
     <div className="Princing">
     <PricingPackage

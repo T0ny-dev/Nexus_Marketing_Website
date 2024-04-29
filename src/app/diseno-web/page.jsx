@@ -37,12 +37,22 @@ function Planes () {
 
   return (
     <div className="plan">
-      <Hero 
-            title={"Diseño web"}
-            subtitle={"Agencia Nexus Marketing"}
-            parraf={"Explora una nueva dimensión en el diseño web con Nexus Marketing. Nuestro equipo en Reynosa te ofrece un servicio dedicado para crear y potenciar la presencia en línea de tu marca. Con nuestra experiencia y compromiso, te acompañaremos en el proceso de desarrollo de un sitio web que refleje la esencia y la visión de tu negocio"}
-            image={"https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/Component%2029.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9Db21wb25lbnQgMjkucG5nIiwiaWF0IjoxNzEzOTk0MjE0LCJleHAiOjE3NDU1MzAyMTR9.BWJUoThoUTJ70Xktz_OHmGG7d6V0btj_e1DII0o9fnw&t=2024-04-24T22%3A29%3A30.239Z"}
-      />
+      <div className="hero">
+        <div className="left-container">
+          <h1>Diseño web</h1>
+          <h2>Agencia Nexus Marketing</h2>
+          <p>Explora una nueva dimensión en el diseño web con Nexus Marketing. Nuestro equipo en Reynosa te ofrece un servicio dedicado para crear y potenciar la presencia en línea de tu marca. Con nuestra experiencia y compromiso, te acompañaremos en el proceso de desarrollo de un sitio web que refleje la esencia y la visión de tu negocio</p>
+          <a href="/contacto">
+            <img src="./button_consultoria.svg" alt="" />
+          </a>
+        </div>
+        <div className="logo-container">
+          <img src="./logo-agencia.svg" alt="Logo" />
+          <hr />
+        </div>
+        <div className="right-container" style={{ backgroundImage: `url(https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/Component%2029.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9Db21wb25lbnQgMjkucG5nIiwiaWF0IjoxNzEzOTk0MjE0LCJleHAiOjE3NDU1MzAyMTR9.BWJUoThoUTJ70Xktz_OHmGG7d6V0btj_e1DII0o9fnw&t=2024-04-24T22%3A29%3A30.239Z")` }}>
+        </div>
+      </div>
       <Title text={"Sitios Web"}/>
     <div className="Princing">
     <PricingPackage

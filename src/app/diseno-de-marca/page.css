@@ -276,12 +276,13 @@
   .hero {
     flex-direction:column;
     height: auto;
+    padding-top: 0;
   }
   
   .left-container {
     width: 100%;
     text-align: start;
-    padding-top: 10vh;
+    padding-top: 0vh;
     padding-right: 3vw;
     padding-bottom: 10vh;
   }

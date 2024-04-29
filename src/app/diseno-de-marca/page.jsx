@@ -37,12 +37,22 @@ function Planes () {
 
   return (
     <div className="plan">
-      <Hero 
-            title={"ADN de marca"}
-            subtitle={"Agencia Nexus Marketing"}
-            parraf={"Descubre una nueva dimensión en el diseño de marca con Nexus Marketing. Nuestro equipo será tu aliado estratégico en este proceso de creación y fortalecimiento de tu identidad de marca en el mundo digital y más allá"}
-            image={"https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/Component%2017.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9Db21wb25lbnQgMTcucG5nIiwiaWF0IjoxNzEzOTkzMjc0LCJleHAiOjE3NDU1MjkyNzR9._94iULf-LP37RMhULMO_xDbSwVEGO8a5OKvSMjYc5tA&t=2024-04-24T22%3A13%3A50.225Z"}
-      />
+      <div className="hero">
+        <div className="left-container">
+          <h1>ADN de marca</h1>
+          <h2>Agencia Nexus Marketing</h2>
+          <p>Descubre una nueva dimensión en el diseño de marca con Nexus Marketing. Nuestro equipo será tu aliado estratégico en este proceso de creación y fortalecimiento de tu identidad de marca en el mundo digital y más allá</p>
+          <a href="/contacto">
+            <img src="./button_consultoria.svg" alt="" />
+          </a>
+        </div>
+        <div className="logo-container">
+          <img src="./logo-agencia.svg" alt="Logo" />
+          <hr />
+        </div>
+        <div className="right-container" style={{ backgroundImage: `url("https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/Component%2017.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9Db21wb25lbnQgMTcucG5nIiwiaWF0IjoxNzEzOTkzMjc0LCJleHAiOjE3NDU1MjkyNzR9._94iULf-LP37RMhULMO_xDbSwVEGO8a5OKvSMjYc5tA&t=2024-04-24T22%3A13%3A50.225Z")` }}>
+        </div>
+      </div>
       <Title text={"Diseño de Marca"}/>
     <div className="Princing">
     <PricingPackage

@@ -37,12 +37,22 @@ function Planes () {
 
   return (
     <div className="plan">
-      <Hero 
-            title={"Mercadotecnia Digital"}
-            subtitle={"Agencia Nexus Marketing"}
-            parraf={"Conoce una nueva forma de hacer Marketing Digital con el uso de nuestro chatbot de Inteligencia Artificial. Nexus Marketing será tu agencia aliada en este proceso."}
-            image={"/marker.webp"}
-      />
+      <div className="hero">
+        <div className="left-container">
+          <h1>Mercadotecnia Digital</h1>
+          <h2>Agencia Nexus Marketing</h2>
+          <p>Conoce una nueva forma de hacer Marketing Digital con el uso de nuestro chatbot de Inteligencia Artificial. Nexus Marketing será tu agencia aliada en este proceso.</p>
+          <a href="/contacto">
+            <img src="./button_consultoria.svg" alt="" />
+          </a>
+        </div>
+        <div className="logo-container">
+          <img src="./logo-agencia.svg" alt="Logo" />
+          <hr />
+        </div>
+        <div className="right-container" style={{ backgroundImage: `url("/marker.webp")` }}>
+        </div>
+      </div>
       <Title text={"Marketing Digital"}/>
     <div className="Princing">
     <PricingPackage

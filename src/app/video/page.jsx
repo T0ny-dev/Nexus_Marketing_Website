@@ -33,12 +33,22 @@ function Planes () {
 
   return (
     <div className="plan">
-      <Hero 
-            title={"Video"}
-            subtitle={"Agencia Nexus Marketing"}
-            parraf={"Potencia tu presencia en línea con nuestro servicio de video. Desde la producción hasta la edición, ofrecemos soluciones completas para dar vida a tu mensaje. ¡Destaca en el mundo digital con contenido audiovisual de calidad!"}
-            image={"/video.png"}
-      />
+      <div className="hero">
+        <div className="left-container">
+          <h1>Video</h1>
+          <h2>Agencia Nexus Marketing</h2>
+          <p>Potencia tu presencia en línea con nuestro servicio de video. Desde la producción hasta la edición, ofrecemos soluciones completas para dar vida a tu mensaje. ¡Destaca en el mundo digital con contenido audiovisual de calidad!</p>
+          <a href="/contacto">
+            <img src="./button_consultoria.svg" alt="" />
+          </a>
+        </div>
+        <div className="logo-container">
+          <img src="./logo-agencia.svg" alt="Logo" />
+          <hr />
+        </div>
+        <div className="right-container" style={{ backgroundImage: `url("/video.png")` }}>
+        </div>
+      </div>
       <Title text={"Video Contenido"}/>
     <div className="Princing">
     <PricingPackage
