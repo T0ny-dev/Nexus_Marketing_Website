@@ -16,6 +16,14 @@ export const metadata = {
 export default function AppLayout({ children }) {
   return (
     <html>
+      <head>
+      <link rel="favicon agencia Nexus" href="/favicon/favicon.ico"/>
+      <meta charset="UTF-8"/>
+      <meta name="description" content="Agencia Nexus Marketing IA"/>
+      <meta name="keywords" content="Agencia Marketing Reynosa, IA marketing Reynosa, Paginas web reynosa, diseño web reynosa, video reynosa "/>
+      <meta name="lang" content="es"/>
+      <meta property="og:image" content="/ia_nexus_chat.png"/>
+      </head>
       <body>
         <Header />
         <NavbarMobiles/>
