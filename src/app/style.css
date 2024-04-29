@@ -106,6 +106,7 @@
   .hero {
     flex-direction:column;
     height: auto;
+    padding-top: 10vh;
   }
   
   .left-container {

@@ -31,7 +31,7 @@ function Chatnexusia() {
 
 
   return (
-    <div>
+    <div className="ia_container">
       <div className="nexus">
         <Title text={"ChatNexus IA"} id="nexus_title" />
         <div className="nexus_ia"></div>

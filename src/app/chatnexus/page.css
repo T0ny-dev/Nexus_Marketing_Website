@@ -69,8 +69,14 @@ body > main > div > div > div.title > h2::after {
 
 
 @media screen and (max-width:1160px) {
+
+  .ia_container {
+    overflow-x: hidden;
+  }
+
+
   .nexus_ia {
-    height: 55vh;
+    height: 50vh;
     background-size: cover;
   }
   .overview {
