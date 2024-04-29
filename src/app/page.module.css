@@ -1,0 +1,36 @@
+/*page css medias*/
+
+@media screen and (max-width:900px) {
+  .hero {
+    flex-direction:column;
+    height: auto;
+  }
+  
+  .left-container {
+    width: 100%;
+    text-align: start;
+    padding-top: 10vh;
+    padding-right: 3vw;
+  }
+
+  .logo-container {
+    width: 100%;
+    flex-direction: row;
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+    display: none;
+  }
+
+  .logo-container hr {
+  display: none;
+  }
+
+  .right-container {
+    width: 100%;
+    height: 80vh;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+}
