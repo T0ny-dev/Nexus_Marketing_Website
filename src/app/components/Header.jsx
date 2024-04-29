@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react";
-import Button from "./ui/button";
+import Button from "@/app/components/ui/Button";
 import "./Header.css";
 
 function Header() {

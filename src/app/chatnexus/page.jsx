@@ -1,6 +1,6 @@
 import Title from "../components/ui/Title";
 import "./page.css";
-import Video from "../components/ui/video";
+import Video from "@/app/components/ui/Video";
 import TitleParagraph from "../components/ui/TitleParagraph";
 import CardContainer from "../components/ui/CardContainer";
 

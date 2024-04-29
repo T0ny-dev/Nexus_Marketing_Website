@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Title from './ui/title';
+import Title from '@/app/components/ui/Title';
 import "./Tabs.css"
 import ButtonArrow from './ui/ButtonArrow';
 import ButtonArrowTranparent from './ui/ButtonArrowTransparent';
