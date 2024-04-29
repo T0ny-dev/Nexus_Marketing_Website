@@ -2,6 +2,7 @@
 import Hero from "./components/Hero";
 import Brand from "./components/Brand";
 import styles from "./page.module.css";
+import "./style.css"
 import Tabs from "./components/Tabs";
 import SectionDouble from "./components/SectionDouble";
 import MoreServices from "./components/MoreServices";
