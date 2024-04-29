@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className="hero">
-        <div className="left-container">
+        <div className="left-container-main">
           <h1>ChatNexus IA</h1>
           <h2>Agencia Nexus Marketing</h2>
           <p>¡Descubre una nueva era en el Marketing Digital! Nos destacamos por nuestra innovadora estrategia respaldada por tecnología de vanguardia. Con nuestro ChatNexus IA impulsado por la Inteligencia Artificial, transformamos la manera en que interactúas con tu audiencia.</p>

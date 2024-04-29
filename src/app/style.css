@@ -5,7 +5,7 @@
   padding-top: 16vh;
 }
 
-.left-container {
+.left-container-main {
   width: 45%;
   color: #fff;
   padding-left: 3vw;
@@ -14,16 +14,16 @@
   justify-content: center;
 }
 
-.left-container h1 {
+.left-container-main h1 {
   font-size: 3em;
 }
 
-.left-container img {
+.left-container-main img {
   margin-top: 5vh;
   width: 40%;
 }
 
-.left-container h2 {
+.left-container-main h2 {
   font-size: 2em;
   font-weight: normal;
   margin-bottom: 3vh;
@@ -109,7 +109,7 @@
     padding-top: 10vh;
   }
   
-  .left-container {
+  .left-container-main {
     width: 100%;
     text-align: start;
     padding-top: 10vh;
