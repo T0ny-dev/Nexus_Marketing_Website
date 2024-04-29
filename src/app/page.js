@@ -22,7 +22,7 @@ export default function Home() {
   ];
   return (
     <main className={styles.main}>
-      <div className="hero">
+      <div className="hero_conte">
         <div className="left-container-main">
           <h1>ChatNexus IA</h1>
           <h2>Agencia Nexus Marketing</h2>
