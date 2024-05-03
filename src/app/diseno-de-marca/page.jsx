@@ -22,7 +22,7 @@ function Planes () {
     },
     {
       title: 'Materiales de Marketing',
-      description: 'Guias de aplicación de marca en tazas, camisas y otros materiales.',
+      description: 'Guías de aplicación de marca en tazas, camisas y otros materiales.',
     },
     {
       title: 'Presentaciones de Negocios',
@@ -30,7 +30,7 @@ function Planes () {
     },
     {
       title: 'Plantillas para redes sociales',
-      description: 'Plantillas para redes sociales.',
+      description: 'Para redes sociales facebook, instagram, tiktok, etc.',
     },
     // Agrega más servicios según sea necesario
   ];

@@ -80,7 +80,7 @@ function Planes () {
           "4 Videos de hasta 15 segundos Reels",
           'Configuración Inicial: $5,000.00 adicionales solo el primer mes.',
           "Programación de Posts en horario relevante para público.",
-          "Gestion de preguntas y respuestas automaticas",
+          "Gestión de preguntas y respuestas automaticas",
           "Revisión y configuración de RRSS"
         ]}
       />
@@ -102,7 +102,7 @@ function Planes () {
           "Programación de Posts en horario relevante para público.",
           "Respuestas a Mensajes y Comentarios",
           "Revisión y configuración de RRSS",
-          "Analisis de campañas con IA"
+          "Análisis de campañas con IA"
         ]}
       />
     </div>

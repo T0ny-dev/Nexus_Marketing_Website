@@ -37,16 +37,16 @@ function Chatnexusia() {
         <div className="nexus_ia"></div>
         <div className="overview">
           <div className="overview__text">
-            <h2>Funcionabilidades</h2>
-            <p>Comparacion de productos VS</p>
-            <p>Generacion de Planes de marketing</p>
-            <p>Analisis y propuesta de SEO para tu web</p>
-            <p>Orientacion en proyectos desde cero</p>
+            <h2>Funcionalidades</h2>
+            <p>Comparación de productos VS</p>
+            <p>Generación de Planes de marketing</p>
+            <p>Análisis y propuesta de SEO para tu web</p>
+            <p>Orientación en proyectos desde cero</p>
           </div>
           <div className="overview__text">
             <h2>Capacidades</h2>
-            <p>Buscar imagenes</p>
-            <p>Buscar Recursos de informacion</p>
+            <p>Buscar imágenes</p>
+            <p>Buscar Recursos de información</p>
             <p>Genera preguntas y variantes</p>
             <p>Respuestas creativas</p>
           </div>

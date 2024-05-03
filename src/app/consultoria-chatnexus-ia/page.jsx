@@ -53,7 +53,7 @@ function Planes () {
       <Title text={"ChatNexus IA"}/>
     <div className="Princing">
     <PricingPackage
-        name="Consultoria gratuita"
+        name="Consultoría gratuita"
         description="Perfecto para pequeñas empresas o proyectos personales."
         price="Gratis"
         features={[

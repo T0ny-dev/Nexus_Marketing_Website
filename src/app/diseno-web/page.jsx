@@ -94,7 +94,7 @@ function Planes () {
         description="Para empresas que necesita un Diseño y Desarrollo Web más personalizado."
         price="$7,999 MXN"
         features={[
-          'Consultoria ChatNexus IA',
+          'Consultoría ChatNexus IA',
           "UX/UI",
           'Sitio web a medida con tecnologías como: Astro js, NextJs y GatsbyJS',
           'Correos Electrónicos',
@@ -106,7 +106,7 @@ function Planes () {
       />
     </div>
     <div className="letter">
-      <p>Todos nuestros planes incluyen una reactivación anual de dominio y hosting por un costo de $1,500 MXN. Además, ofrecemos un servicio de capacitación para sitios autogestionables. Los dominios incluidos son .com, .net y .org*.</p>
+      <p>Todos nuestros planes incluyen una reactivación anual de Dominio y Hosting por un costo de $1,500 MXN. Además, ofrecemos un servicio de capacitación para sitios autogestionables. Los dominios incluidos son .com, .net y .org*.</p>
     </div>
     <LandingPage
         services={services}

@@ -18,7 +18,7 @@ function Planes () {
     },
     {
       title: 'Diseño y Desarrollo de Contenido',
-      description: 'No tienes equipo ni orientacion no te preocupes tambien apoyamos',
+      description: 'No tienes equipo ni orientación no te preocupes tambien apoyamos',
     },
     {
       title: 'Campañas de Publicidad Digital',
@@ -50,18 +50,18 @@ function Planes () {
         <div className="right-container" style={{ backgroundImage: `url("/academy.webp")` }}>
         </div>
       </div>
-      <Title text={"Asesoria educativa"}/>
+      <Title text={"Asesoría educativa"}/>
     <div className="Princing">
     <PricingPackage
-        name="Tu proyecto de educacion"
+        name="Tu proyecto de educación"
         description="Inicia tu academia personal y democraticemos la educacion por un valor simbolico"
         price="Cotizar"
         features={[
-          'Asesoria',
+          'Asesoría',
           'Propuesta de plataforma educativa',
-          'Apoyo en la elaboracion de capacitaciones',
+          'Apoyo en la elaboración de capacitaciones',
           'Pagos online',
-          'Capacitacion para uso de plataforma',
+          'Capacitación para uso de plataforma',
         ]}
       />
 

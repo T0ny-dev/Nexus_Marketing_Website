@@ -61,7 +61,7 @@ function Planes () {
         price="$2,100 MXN"
         features={[
           'Análisis de Mercado y Competencia',
-          'Estrategia de Posicionamiento y tactica',
+          'Estrategia de Posicionamiento y táctica',
           'Plan de Comunicación y Promoción',
           'Posicionamiento',
         ]}
