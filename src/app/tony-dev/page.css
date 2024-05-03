@@ -1,0 +1,6 @@
+.tarjet {
+  display: flex;
+  padding-top: 20vh;
+  background-color: #0a0a0a;
+  flex-direction: column;
+}

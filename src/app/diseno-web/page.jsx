@@ -60,12 +60,15 @@ function Planes () {
         description="Perfecto para pequeñas empresas o proyectos personales."
         price="$5,500 MXN"
         features={[
-          'Consultoria ChatNexus IA',
-          'Hosting Incluido y Dominio / anual',
-          'Correos Electrónicos',
-          'Web básica (4 secciones / one pager)',
-          "SSL",
-          "SEO"
+          'One pager o landing page moderna',
+          'Diseño responsivo',
+          'Optimización de velocidad de carga',
+          '4 secciones y contacto',
+          "Dominio y Hosting incluido por un año",
+          "Sitio web auto-gestionable",
+          "SEO",
+          "Whatsapp Chat",
+          "Entrega en 4-6 días"
         ]}
       />
 
@@ -74,25 +77,29 @@ function Planes () {
         description="Ideal para empresas medianas con necesidades más avanzadas."
         price="$6,999 MXN"
         features={[
-          'Consultoria ChatNexus IA',
-          'Hosting Incluido y Dominio / anual',
+          'Sitio web con 6 secciones',
+          'Diseño responsivo',
+          'Optimización de velocidad de carga',
           'Correos Electrónicos',
           'Web Intermedia (6 secciones)',
-          "SSL",
-          "SEO"
+          "Dominio y Hosting incluido por un año",
+          "SEO",
+          "Whatsapp Chat",
+          "Entrega en 4-6 días"
         ]}
       />
 
       <PricingPackage
         name="Web Deluxe"
-        description="Para empresas que necesita un equipo en marketing continuo."
+        description="Para empresas que necesita un Diseño y Desarrollo Web más personalizado."
         price="$7,999 MXN"
         features={[
           'Consultoria ChatNexus IA',
-          'Hosting Incluido y Dominio / anual',
-          'Correos Electrónicos',
-          'Web Personalizada',
           "UX/UI",
+          'Sitio web a medida con tecnologías como: Astro js, NextJs y GatsbyJS',
+          'Correos Electrónicos',
+          "Dominio y Hosting incluido por un año",
+          "SEO",
           "SSL",
           "SEO"
         ]}

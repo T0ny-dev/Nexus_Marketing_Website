@@ -6,7 +6,7 @@ function LandingPage({ title, subtitle, services }) {
     <div className="landing-page">
       {/* Sección de Servicios */}
       <div className="services">
-        <h2>Contiene:</h2>
+        <h2>Otros servicios:</h2>
         <div className="service-list">
           {services.map((service, index) => (
             <div className="service" key={index}>

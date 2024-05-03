@@ -53,40 +53,14 @@ function Planes () {
       <Title text={"ChatNexus IA"}/>
     <div className="Princing">
     <PricingPackage
-        name="Diseño de logotipo"
+        name="Consultoria gratuita"
         description="Perfecto para pequeñas empresas o proyectos personales."
-        price="$350 MXN"
+        price="Gratis"
         features={[
           'Consultoria ChatNexus IA',
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web basica (4 secciones / one pager)',
-        ]}
-      />
-
-      <PricingPackage
-        name="Plus"
-        description="Ideal para empresas medianas con necesidades más avanzadas."
-        price="$6,999 MXN/mes"
-        features={[
-          'Consultoria ChatNexus IA',
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web (6 secciones)',
-        ]}
-      />
-
-      <PricingPackage
-        name="Deluxe"
-        description="Para empresas que necesita un equipo en marketing continuo."
-        price="$7,999 MXN/mes"
-        features={[
-          'Consultoria ChatNexus IA',
-          "Acceso a ChatNexus IA",
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web personalizada',
-          "Manejo de redes sociales"
+          'Analisis de proyecto',
+          'Plan Estratégico',
+          'Consulta de Datos',
         ]}
       />
     </div>

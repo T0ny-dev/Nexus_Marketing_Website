@@ -50,45 +50,21 @@ function Planes () {
         <div className="right-container" style={{ backgroundImage: `url("/academy.webp")` }}>
         </div>
       </div>
-      <Title text={"Plataformas educativas"}/>
+      <Title text={"Asesoria educativa"}/>
     <div className="Princing">
     <PricingPackage
-        name="Plan compartido"
-        description="Perfecto para colaborar con Agencia Nexus Marketing, democraticemos la educacion por un valor simbolico"
-        price="Plan de ingresos por usuario"
+        name="Tu proyecto de educacion"
+        description="Inicia tu academia personal y democraticemos la educacion por un valor simbolico"
+        price="Cotizar"
         features={[
-          'Consultoria ChatNexus IA',
-          'Plataforma educativa',
-          'Videos Promocionales',
-          'Web basica (4 secciones / one pager)',
+          'Asesoria',
+          'Propuesta de plataforma educativa',
+          'Apoyo en la elaboracion de capacitaciones',
+          'Pagos online',
+          'Capacitacion para uso de plataforma',
         ]}
       />
 
-      <PricingPackage
-        name="Plus"
-        description="Ideal para empresas medianas con necesidades más avanzadas."
-        price="$6,999 MXN/mes"
-        features={[
-          'Consultoria ChatNexus IA',
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web (6 secciones)',
-        ]}
-      />
-
-      <PricingPackage
-        name="Deluxe"
-        description="Para empresas que necesita un equipo en marketing continuo."
-        price="$7,999 MXN/mes"
-        features={[
-          'Consultoria ChatNexus IA',
-          "Acceso a ChatNexus IA",
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web personalizada',
-          "Manejo de redes sociales"
-        ]}
-      />
     </div>
     <div className="letter">
       <p>En todos los servicios se entregan los materiales generados y el acuerdo de propiedad intelectual*</p>

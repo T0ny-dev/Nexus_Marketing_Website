@@ -31,9 +31,8 @@ const Footer = () => {
         <div className="footer__section">
           <h3>Contacto</h3>
           <p>Reynosa, Tamaulipas, MX.</p>
-          <p>Dirección: Calle Ejemplo, 123</p>
           <p>Teléfono: +52 899 456 1010</p>
-          <p>Correo: ejemplo@example.com</p>
+          <p>Correo: nexus@agencianexusmarketing.com</p>
         </div>
       </div>
     </footer>

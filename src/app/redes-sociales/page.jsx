@@ -52,9 +52,9 @@ function Planes () {
       <Title text={"Social Media"}/>
     <div className="Princing">
     <PricingPackage
-        name="Diseño de logotipo"
+        name="Redes Sociales Básico"
         description="Perfecto para pequeñas empresas o proyectos personales."
-        price="$350 MXN"
+        price="$9,999 MXN"
         features={[
           'Consultoria ChatNexus IA',
           'Fotografia para productos / personas',
@@ -66,7 +66,7 @@ function Planes () {
       <PricingPackage
         name="Plus"
         description="Ideal para empresas medianas con necesidades más avanzadas."
-        price="$6,999 MXN/mes"
+        price="$14,999 MXN/mes"
         features={[
           'Consultoria ChatNexus IA',
           'Fotografia para productos / personas',
@@ -78,7 +78,7 @@ function Planes () {
       <PricingPackage
         name="Deluxe"
         description="Para empresas que necesita un equipo en marketing continuo."
-        price="$7,999 MXN/mes"
+        price="$19,999 MXN/mes"
         features={[
           'Consultoria ChatNexus IA',
           "Acceso a ChatNexus IA",

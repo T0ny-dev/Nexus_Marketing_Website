@@ -18,19 +18,19 @@ function Planes () {
     },
     {
       title: 'Identidad de marca',
-      description: 'Desarrollamos sitios web modernos y funcionales que cautivan a tus visitantes.',
+      description: 'Desarrollamos tu identidad y ADN de marca.',
     },
     {
       title: 'Materiales de Marketing',
-      description: 'Producción audiovisual de alta calidad para promocionar tu negocio o proyecto.',
+      description: 'Guias de aplicación de marca en tazas, camisas y otros materiales.',
     },
     {
       title: 'Presentaciones de Negocios',
-      description: 'Producción audiovisual de alta calidad para promocionar tu negocio o proyecto.',
+      description: 'Rediseñamos Presentaciones empresariales.',
     },
     {
       title: 'Plantillas para redes sociales',
-      description: 'Producción audiovisual de alta calidad para promocionar tu negocio o proyecto.',
+      description: 'Plantillas para redes sociales.',
     },
     // Agrega más servicios según sea necesario
   ];
@@ -57,39 +57,43 @@ function Planes () {
     <div className="Princing">
     <PricingPackage
         name="Diseño de logotipo"
-        description="Perfecto para pequeñas empresas o proyectos personales."
-        price="$350 MXN"
+        description="Ideal para proyectos iniciales."
+        price="$700 MXN"
         features={[
-          'Consultoria ChatNexus IA',
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web basica (4 secciones / one pager)',
+          'Diseño de logo',
+          '3 conceptos de logos',
+          'Logo en jpeg y png alta calidad',
+          '3 revisiones',
+          'Entrega en 3 días',
         ]}
       />
 
       <PricingPackage
-        name="Plus"
-        description="Ideal para empresas medianas con necesidades más avanzadas."
-        price="$6,999 MXN/mes"
+        name="Manual de Identidad"
+        description="Ideal para solidificar una marca o un rediseño."
+        price="$1,700 MXN"
         features={[
-          'Consultoria ChatNexus IA',
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web (6 secciones)',
+          'Diseño de logo',
+          'Paleta de colores',
+          'Tipografías',
+          'Guía y uso de marca',
+          'Entrega en 4-6 días',
         ]}
       />
 
       <PricingPackage
-        name="Deluxe"
-        description="Para empresas que necesita un equipo en marketing continuo."
-        price="$7,999 MXN/mes"
+        name="Paquete Branding"
+        description="Ideal para proyecto completo"
+        price="$3,450 MXN/mes"
         features={[
-          'Consultoria ChatNexus IA',
-          "Acceso a ChatNexus IA",
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web personalizada',
-          "Manejo de redes sociales"
+          'Diseño de logo',
+          "Guía y uso de marca",
+          'Paleta de colores',
+          'Tipografías',
+          'Libro de marca pdf',
+          "Logos para redes",
+          'Plantillas para redes sociales',
+          'Entrega en 4-6 días',
         ]}
       />
     </div>

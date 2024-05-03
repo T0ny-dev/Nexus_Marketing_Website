@@ -57,8 +57,9 @@
 .right-container {
   width: 45%;
   background-image: url("/hero_Nexus.png");
-  background-size: cover;
-  background-repeat:none;
+  background-size: contain;
+  background-position: center;
+  background-repeat:no-repeat;
 }
 
 .logo-container {

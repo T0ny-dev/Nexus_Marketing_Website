@@ -52,40 +52,32 @@ function Planes () {
       <Title text={"Video Contenido"}/>
     <div className="Princing">
     <PricingPackage
-        name="Video Básica"
+        name="Video Básico"
         description="Perfecto para pequeñas empresas o proyectos personales."
-        price="$350 MXN"
+        price="$700 MXN"
         features={[
-          'Consultoria ChatNexus IA',
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web basica (4 secciones / one pager)',
+          '3 videos de 1 minuto',
         ]}
       />
 
       <PricingPackage
         name="Video Plus"
         description="Ideal para empresas medianas con necesidades más avanzadas."
-        price="$6,999 MXN/mes"
+        price="$1,600 MXN/mes"
         features={[
-          'Consultoria ChatNexus IA',
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web (6 secciones)',
+          '6 videos',
+          '5 fotos',
         ]}
       />
 
       <PricingPackage
         name="Video Deluxe"
         description="Para empresas que necesita un equipo en marketing continuo."
-        price="$7,999 MXN/mes"
+        price="$3,200 MXN/mes"
         features={[
-          'Consultoria ChatNexus IA',
-          "Acceso a ChatNexus IA",
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web personalizada',
-          "Manejo de redes sociales"
+          '10 videos',
+          "15 reels",
+          '20 fotos',
         ]}
       />
     </div>

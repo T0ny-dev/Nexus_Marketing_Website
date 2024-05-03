@@ -27,7 +27,7 @@ const Tabs = ({ tabs }) => {
           <div className='tab__Service'>
             <h3>{tabs[activeTab].label}</h3>
             <div className='tab_buttons'>
-              <ButtonArrow text={"Cotizar"}/>
+              <ButtonArrow text={"Consultar"}/>
               <ButtonArrowTranparent text={"broshure"}/>
             </div>
           </div>

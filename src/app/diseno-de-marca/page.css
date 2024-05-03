@@ -168,6 +168,7 @@
   background-color: #0A0A0A;
   display: flex;
   height: 100vh;
+  padding-right: 3vw;
   padding-top: 0vh;
 }
 
@@ -198,8 +199,9 @@
 .right-container {
   width: 45%;
   background-image: url("/hero_Nexus.png");
-  background-size: cover;
-  background-repeat:none;
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: center;
 }
 
 .logo-container {

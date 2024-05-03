@@ -8,7 +8,6 @@ function PricingPackage({ name, description, price, features }) {
       <p>{description}</p>
       <div className="pricing-details">
         <p className="price">{price}</p>
-        <button className="start-now-button">Empezar ahora</button>
       </div>
       <ul className="features-list">
         {features.map((feature, index) => (
