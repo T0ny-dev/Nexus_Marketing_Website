@@ -1,6 +1,6 @@
 .tarjet {
   display: flex;
-  padding-top: 20vh;
+  padding-top: 5vh;
   flex-direction: column;
   background-image: url("/black_back.webp");
   background-size: cover;
