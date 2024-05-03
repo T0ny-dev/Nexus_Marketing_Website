@@ -101,7 +101,7 @@ function Planes () {
           "Dominio y Hosting incluido por un año",
           "SEO",
           "SSL",
-          "SEO"
+          "Entrega en 4-6 días"
         ]}
       />
     </div>

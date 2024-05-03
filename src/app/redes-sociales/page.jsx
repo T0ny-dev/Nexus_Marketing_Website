@@ -56,10 +56,14 @@ function Planes () {
         description="Perfecto para pequeñas empresas o proyectos personales."
         price="$9,999 MXN"
         features={[
-          'Consultoria ChatNexus IA',
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web basica (4 secciones / one pager)',
+          "Redes: Facebook y Instagram",
+          'Creación de 7 Copys',
+          'Diseño de Portada y foto',
+          'Diseño 7 Post',
+          'Configuración Inicial: $5,000.00 adicionales solo el primer mes.',
+          "Programación de Posts en horario relevante para público.",
+          "Revisión y configuración de RRSS",
+          "Creación de Campaña en Fb e Instagram"
         ]}
       />
 
@@ -68,10 +72,16 @@ function Planes () {
         description="Ideal para empresas medianas con necesidades más avanzadas."
         price="$14,999 MXN/mes"
         features={[
-          'Consultoria ChatNexus IA',
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web (6 secciones)',
+          "Redes: Facebook, Instagram, Linkedin y X",
+          'Creación de 15 Copys',
+          'Diseño de Portada y foto',
+          'Diseño 15 Post',
+          'Diseño 7 Historias',
+          "4 Videos de hasta 15 segundos Reels",
+          'Configuración Inicial: $5,000.00 adicionales solo el primer mes.',
+          "Programación de Posts en horario relevante para público.",
+          "Gestion de preguntas y respuestas automaticas",
+          "Revisión y configuración de RRSS"
         ]}
       />
 
@@ -80,12 +90,19 @@ function Planes () {
         description="Para empresas que necesita un equipo en marketing continuo."
         price="$19,999 MXN/mes"
         features={[
-          'Consultoria ChatNexus IA',
-          "Acceso a ChatNexus IA",
-          'Fotografia para productos / personas',
-          'Videos Promocionales',
-          'Web personalizada',
-          "Manejo de redes sociales"
+          "Redes: Facebook, Instagram, Linkedin, X, Youtube y Tiktok",
+          'Creación de 30 Copys',
+          "Diseño de Portada y foto",
+          'Diseño 30 Post',
+          'Diseño 15 Historias',
+          '4 Videos de hasta 15 segundos Reels',
+          "Manejo de redes sociales",
+          "4 Videos Editados de hasta 4 Minutos Reels o FHD",
+          'Configuración Inicial: $5,000.00 adicionales solo el primer mes.',
+          "Programación de Posts en horario relevante para público.",
+          "Respuestas a Mensajes y Comentarios",
+          "Revisión y configuración de RRSS",
+          "Analisis de campañas con IA"
         ]}
       />
     </div>
