@@ -56,72 +56,6 @@
   background-repeat:none;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative; /* Necesario para posicionar el hr */
-}
-
-.logo-container img {
-  max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
-  animation: spin 10s linear infinite; /* Aplica la animación de giro infinito */
-
-}
-
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg); /* Gira la imagen 360 grados */
-  }
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative; /* Necesario para posicionar el hr */
-}
-
-.logo-container img {
-  max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-}
-
-.logo-container img {
-  max-width: 80%;
-  z-index: 1;
-}
-
-.logo-container hr {
-  position: absolute;
-  height: calc(100%);
-  border: none;
-  border-left: 2px solid white;
-  margin: 0; /* Elimina cualquier margen que se aplique por defecto */
-  left: calc(50% - 1px);
-}
-
-.logo-container hr:first-child {
-  left: -4px;
-}
-
-.logo-container hr:last-child {
-  right: -4px;
-}
-
 /*page css medias*/
 
 @media screen and (max-width:900px) {
@@ -138,7 +72,7 @@
     padding-right: 3vw;
   }
 
-  .logo-container {
+  .logo-container--icon {
     width: 100%;
     flex-direction: row;
     padding-top: 10vh;
@@ -146,7 +80,7 @@
     display: none;
   }
 
-  .logo-container hr {
+  .logo-container--icon hr {
   display: none;
   }
 
@@ -204,7 +138,7 @@
   background-position: center;
 }
 
-.logo-container {
+.logo-container--icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,7 +146,7 @@
   position: relative; /* Necesario para posicionar el hr */
 }
 
-.logo-container img {
+.logo-container--icon img {
   max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
   animation: spin 10s linear infinite; /* Aplica la animación de giro infinito */
 
@@ -228,7 +162,7 @@
   }
 }
 
-.logo-container {
+.logo-container--icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -236,11 +170,11 @@
   position: relative; /* Necesario para posicionar el hr */
 }
 
-.logo-container img {
+.logo-container--icon img {
   max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
 }
 
-.logo-container {
+.logo-container--icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -248,12 +182,12 @@
   position: relative;
 }
 
-.logo-container img {
+.logo-container--icon img {
   max-width: 80%;
   z-index: 1;
 }
 
-.logo-container hr {
+.logo-container--icon hr {
   position: absolute;
   height: calc(100%);
   border: none;
@@ -262,11 +196,11 @@
   left: calc(50% - 1px);
 }
 
-.logo-container hr:first-child {
+.logo-container--icon hr:first-child {
   left: -4px;
 }
 
-.logo-container hr:last-child {
+.logo-container--icon hr:last-child {
   right: -4px;
 }
 
@@ -280,13 +214,14 @@
   .left-container {
     width: 100%;
     text-align: start;
-    padding-top: 10vh;
+    padding-top: 15vh;
+    margin-top: 8vh;
     padding-right: 5vw;
     padding: 5vw;
     padding-bottom: 10vh;
   }
 
-  .logo-container {
+  .logo-container--icon {
     width: 100%;
     flex-direction: row;
     padding-top: 10vh;
