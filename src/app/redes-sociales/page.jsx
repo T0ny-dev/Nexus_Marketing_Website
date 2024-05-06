@@ -22,7 +22,7 @@ function Planes () {
     },
     {
       title: 'Contenido Creativo',
-      description: ' Desde imágenes llamativas hasta videos envolventes, cada pieza está diseñada para destacar en las redes sociales',
+      description: ' Desde imágenes llamativas hasta videos envolventes, cada pieza está diseñada para destacar en las redes sociales.',
     },
     {
       title: 'Interacción y Participación',
@@ -90,7 +90,7 @@ function Planes () {
         description="Para empresas que necesita un equipo en marketing continuo."
         price="$19,999 MXN/mes"
         features={[
-          "Redes: Facebook, Instagram, Linkedin, X, Youtube y Tiktok",
+          "Redes: Facebook, Instagram, Linkedin, X, Youtube y Tiktok.",
           'Creación de 30 Copys.',
           "Diseño de Portada y foto.",
           'Diseño 30 Post.',

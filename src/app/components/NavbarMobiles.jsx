@@ -48,7 +48,7 @@ function NavbarMobiles() {
             {recursosOpen && (
               <ul>
                 <li><a href="https://medium.com/@agencia.nexus.marketing">Blog</a></li>
-                <li><a href="/academy">Academia</a></li>
+                <li><a href="https://academy.agencianexusmarketing.com/">Academia</a></li>
                 <li><a href="https://agencia-nexus-marketing.notion.site/Presentaci-n-372754cdab1748d79afbe17f00f887bb">Notion Nexus</a></li>
               </ul>
             )}

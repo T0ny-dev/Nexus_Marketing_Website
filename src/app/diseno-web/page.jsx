@@ -14,7 +14,7 @@ function Planes () {
   const services = [
     {
       title: 'Propuesta visual',
-      description: 'Desde la selección de colores hasta el diseño de elementos gráficos, cada detalle está cuidadosamente pensado para reflejar la identidad de tu marca',
+      description: 'Desde la selección de colores hasta el diseño de elementos gráficos, cada detalle está cuidadosamente pensado para reflejar la identidad de tu marca.',
     },
     {
       title: 'Palabras Clave',

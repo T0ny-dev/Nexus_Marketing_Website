@@ -63,7 +63,7 @@ function Planes () {
           'Diseño de logo.',
           '3 conceptos de logos.',
           'Logo en jpeg y png alta calidad.',
-          '3 revisiones',
+          '3 revisiones.',
           'Entrega en 3 días.',
         ]}
       />
@@ -83,7 +83,7 @@ function Planes () {
 
       <PricingPackage
         name="Paquete Branding"
-        description="Ideal para proyecto completo"
+        description="Ideal para proyecto completo."
         price="$3,450 MXN/mes"
         features={[
           'Diseño de logo.',
@@ -91,7 +91,7 @@ function Planes () {
           'Paleta de colores.',
           'Tipografías.',
           'Libro de marca pdf.',
-          "Logos para redes",
+          "Logos para redes.",
           'Plantillas para redes sociales.',
           'Entrega en 4-6 días.',
         ]}

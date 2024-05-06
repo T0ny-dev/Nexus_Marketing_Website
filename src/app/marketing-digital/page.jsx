@@ -18,7 +18,7 @@ function Planes () {
     },
     {
       title: 'Estrategia de Posicionamiento y táctica',
-      description: 'A través de un análisis detallado de tu audiencia objetivo y los canales de mercado, identificamos las mejores oportunidades para posicionar tu marca de manera efectiva',
+      description: 'A través de un análisis detallado de tu audiencia objetivo y los canales de mercado, identificamos las mejores oportunidades para posicionar tu marca de manera efectiva.',
     },
     {
       title: 'Plan de Comunicación y Promoción',

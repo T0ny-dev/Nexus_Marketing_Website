@@ -14,19 +14,19 @@ function Planes () {
   const services = [
     {
       title: 'Análisis y Plan Estratégico',
-      description: 'Realizamos un análisis detallado de tu situación actual y desarrollamos un plan estratégico',
+      description: 'Realizamos un análisis detallado de tu situación actual y desarrollamos un plan estratégico.',
     },
     {
       title: 'Diseño y Desarrollo de Contenido',
-      description: 'No tienes equipo ni orientación no te preocupes tambien apoyamos',
+      description: 'No tienes equipo ni orientación no te preocupes tambien apoyamos.',
     },
     {
       title: 'Campañas de Publicidad Digital',
-      description: 'Diseñamos y ejecutamos campañas publicitarias digitales ',
+      description: 'Diseñamos y ejecutamos campañas publicitarias digitales.',
     },
     {
       title: 'Plataforma Educativa',
-      description: 'Desarrollamos una plataforma educativa completa y personalizada',
+      description: 'Desarrollamos una plataforma educativa completa y personalizada.',
     },
 
     // Agrega más servicios según sea necesario

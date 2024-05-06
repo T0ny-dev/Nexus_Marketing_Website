@@ -18,7 +18,7 @@ function MoreServices () {
           <p>
           Tu plataforma de aprendizaje en marketing, donde puedes dominar las mejores estrategias y tácticas para impulsar el crecimiento y las ventas en cualquier tipo de negocio.
           </p>
-          <a href="/academy" style={{textDecoration:"none"}}>
+          <a href="https://academy.agencianexusmarketing.com/" style={{textDecoration:"none"}}>
           <ButtonArrow text={"Academia"}/>
           </a>
         </div>

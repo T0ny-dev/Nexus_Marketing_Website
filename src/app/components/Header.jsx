@@ -30,7 +30,7 @@ function Header() {
             {showResources && (
               <ul className="resource__list">
                 <li><a href="https://medium.com/@agencia.nexus.marketing" target="_blank">Blog</a></li>
-                <li><a href="/academy">Academia</a></li>
+                <li><a href="https://academy.agencianexusmarketing.com/">Academia</a></li>
                 <li><a href="https://agencia-nexus-marketing.notion.site/Presentaci-n-372754cdab1748d79afbe17f00f887bb" target="_blank">Notion Nexus</a></li>
               </ul>
             )}
@@ -61,7 +61,7 @@ function Header() {
           </button>
           <div className="service__item">
             <img src="academy_nexus.png" alt="Service 1" />
-            <a href="/academy">
+            <a href="https://academy.agencianexusmarketing.com/" target="_blank">
             <button id="consult">Academia <img src="/arrow.png" alt="arrow"/></button>
             </a>
           </div>
