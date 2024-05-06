@@ -12,7 +12,9 @@ function SectionDouble () {
         <p>
         En nuestra agencia de marketing en Ciudad Reynosa, combinamos la potencia de la inteligencia artificial para ofrecerte soluciones innovadoras. Impulsamos el crecimiento de tu negocio con estrategias digitales efectivas y análisis de datos avanzados. ¿Eres un emprendedor nuevo? ¡Estamos aquí para ayudarte! Ofrecemos una consultoría gratuita a través de nuestro chatbot Nexus IA. Confía en nosotros para llevar tu marca al siguiente nivel en el mundo digital.
         </p>
-        <ButtonArrowTranparent text={"Presentación"}/>
+        <a id="prese" href="https://drive.google.com/file/d/1qFzhEmLDRzIHQ6x3FlLzlCLFJtopLEDz/view?usp=sharing" target="_blank">
+          <ButtonArrowTranparent text={"Presentación"}/>
+        </a>
       </div>
     </div>
   )
