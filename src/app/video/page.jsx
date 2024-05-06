@@ -22,7 +22,7 @@ function Planes () {
     },
     {
       title: 'Correcciones',
-      description: ' Con un enfoque meticuloso, corregimos errores y optimizamos la calidad para garantizar que tu mensaje se transmita de manera efectiva',
+      description: ' Con un enfoque meticuloso, corregimos errores y optimizamos la calidad para garantizar que tu mensaje se transmita de manera efectiva.',
     },
     {
       title: 'Video',
@@ -37,7 +37,7 @@ function Planes () {
         <div className="left-container">
           <h1>Video</h1>
           <h2>Agencia Nexus Marketing</h2>
-          <p>Potencia tu presencia en línea con nuestro servicio de video. Desde la producción hasta la edición, ofrecemos soluciones completas para dar vida a tu mensaje. ¡Destaca en el mundo digital con contenido audiovisual de calidad!</p>
+          <p>Potencia tu presencia en línea con nuestro servicio de video. Desde la producción hasta la edición, ofrecemos soluciones completas para dar vida a tu mensaje. ¡Destaca en el mundo digital con contenido audiovisual de calidad!.</p>
           <a href="/contacto">
             <img src="./button_consultoria.svg" alt="" />
           </a>
@@ -56,7 +56,7 @@ function Planes () {
         description="Perfecto para pequeñas empresas o proyectos personales."
         price="$700 MXN"
         features={[
-          '3 videos de 1 minuto',
+          '3 videos de 1 minuto.',
         ]}
       />
 
@@ -65,8 +65,8 @@ function Planes () {
         description="Ideal para empresas medianas con necesidades más avanzadas."
         price="$1,600 MXN/mes"
         features={[
-          '6 videos',
-          '5 fotos',
+          '6 videos.',
+          '5 fotos.',
         ]}
       />
 
@@ -75,9 +75,9 @@ function Planes () {
         description="Para empresas que necesita un equipo en marketing continuo."
         price="$3,200 MXN/mes"
         features={[
-          '10 videos',
-          "15 reels",
-          '20 fotos',
+          '10 videos.',
+          "15 reels.",
+          '20 fotos.',
         ]}
       />
     </div>

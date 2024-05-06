@@ -41,7 +41,7 @@ function Planes () {
         <div className="left-container">
           <h1>Diseño web</h1>
           <h2>Agencia Nexus Marketing</h2>
-          <p>Explora una nueva dimensión en el diseño web con Nexus Marketing. Nuestro equipo en Reynosa te ofrece un servicio dedicado para crear y potenciar la presencia en línea de tu marca. Con nuestra experiencia y compromiso, te acompañaremos en el proceso de desarrollo de un sitio web que refleje la esencia y la visión de tu negocio</p>
+          <p>Explora una nueva dimensión en el diseño web con Nexus Marketing. Nuestro equipo en Reynosa te ofrece un servicio dedicado para crear y potenciar la presencia en línea de tu marca. Con nuestra experiencia y compromiso, te acompañaremos en el proceso de desarrollo de un sitio web que refleje la esencia y la visión de tu negocio.</p>
           <a href="/contacto">
             <img src="./button_consultoria.svg" alt="" />
           </a>
@@ -60,15 +60,15 @@ function Planes () {
         description="Perfecto para pequeñas empresas o proyectos personales."
         price="$5,500 MXN"
         features={[
-          'One pager o landing page moderna',
-          'Diseño responsivo',
-          'Optimización de velocidad de carga',
-          '4 secciones y contacto',
-          "Dominio y Hosting incluido por un año",
-          "Sitio web auto-gestionable",
-          "SEO",
-          "Whatsapp Chat",
-          "Entrega en 4-6 días"
+          'One pager o landing page moderna.',
+          'Diseño responsivo.',
+          'Optimización de velocidad de carga.',
+          '4 secciones y contacto.',
+          "Dominio y Hosting incluido por un año.",
+          "Sitio web auto-gestionable.",
+          "SEO.",
+          "Whatsapp Chat.",
+          "Entrega en 4-6 días."
         ]}
       />
 
@@ -77,15 +77,15 @@ function Planes () {
         description="Ideal para empresas medianas con necesidades más avanzadas."
         price="$6,999 MXN"
         features={[
-          'Sitio web con 6 secciones',
-          'Diseño responsivo',
-          'Optimización de velocidad de carga',
-          'Correos Electrónicos',
-          'Web Intermedia (6 secciones)',
-          "Dominio y Hosting incluido por un año",
-          "SEO",
-          "Whatsapp Chat",
-          "Entrega en 4-6 días"
+          'Sitio web con 6 secciones.',
+          'Diseño responsivo.',
+          'Optimización de velocidad de carga.',
+          'Correos Electrónicos.',
+          'Web Intermedia (6 secciones).',
+          "Dominio y Hosting incluido por un año.",
+          "SEO.",
+          "Whatsapp Chat.",
+          "Entrega en 4-6 días."
         ]}
       />
 
@@ -94,14 +94,14 @@ function Planes () {
         description="Para empresas que necesita un Diseño y Desarrollo Web más personalizado."
         price="$7,999 MXN"
         features={[
-          'Consultoría ChatNexus IA',
-          "UX/UI",
-          'Sitio web a medida con tecnologías como: Astro js, NextJs y GatsbyJS',
-          'Correos Electrónicos',
-          "Dominio y Hosting incluido por un año",
-          "SEO",
-          "SSL",
-          "Entrega en 4-6 días"
+          'Consultoría ChatNexus IA.',
+          "UX/UI.",
+          'Sitio web a medida con tecnologías como: Astro js, NextJs y GatsbyJS.',
+          'Correos Electrónicos.',
+          "Dominio y Hosting incluido por un año.",
+          "SEO.",
+          "SSL.",
+          "Entrega en 4-6 días."
         ]}
       />
     </div>

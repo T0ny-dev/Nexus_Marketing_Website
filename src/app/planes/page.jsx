@@ -16,10 +16,10 @@ function Planes () {
         description="Perfecto para pequeñas empresas o proyectos personales que necesitan apoyo de un equipo innovador."
         price="$4,000 MXN/Mes"
         features={[
-          'Consultoría ChatNexus IA',
-          'Fotografía para productos / personas',
-          'Videos Promocionales',
-          'Web básica (4 secciones / one pager)',
+          'Consultoría ChatNexus IA.',
+          'Fotografía para productos / personas.',
+          'Videos Promocionales.',
+          'Web básica (4 secciones / one pager).',
         ]}
       />
 
@@ -28,10 +28,10 @@ function Planes () {
         description="Necesidades más avanzadas que necesitan más soporte de un equipo."
         price="$6,999 MXN/mes"
         features={[
-          'Consultoría ChatNexus IA',
-          'Fotografía para productos / personas',
-          'Videos Promocionales',
-          'Web (6 secciones)',
+          'Consultoría ChatNexus IA.',
+          'Fotografía para productos / personas.',
+          'Videos Promocionales.',
+          'Web (6 secciones).',
         ]}
       />
 
@@ -40,12 +40,12 @@ function Planes () {
         description="Equipo de marketing continuo y especializado para sus necesidades"
         price="$7,999 MXN/mes"
         features={[
-          'Consultoría ChatNexus IA',
-          "Acceso a ChatNexus IA",
-          'Fotografía para productos / personas',
-          'Videos Promocionales',
-          'Web personalizada',
-          "Manejo de redes sociales"
+          'Consultoría ChatNexus IA.',
+          "Acceso a ChatNexus IA.",
+          'Fotografía para productos / personas.',
+          'Videos Promocionales.',
+          'Web personalizada.',
+          "Manejo de redes sociales."
         ]}
       />
     </div>

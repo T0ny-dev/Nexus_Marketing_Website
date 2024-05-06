@@ -57,10 +57,10 @@ function Planes () {
         description="Perfecto para pequeñas empresas o proyectos personales."
         price="Gratis"
         features={[
-          'Consultoria ChatNexus IA',
-          'Analisis de proyecto',
-          'Plan Estratégico',
-          'Consulta de Datos',
+          'Consultoría ChatNexus IA.',
+          'Análisis de proyecto.',
+          'Plan Estratégico.',
+          'Consulta de Datos.',
         ]}
       />
     </div>

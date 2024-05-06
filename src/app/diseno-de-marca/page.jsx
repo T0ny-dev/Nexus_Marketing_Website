@@ -41,7 +41,7 @@ function Planes () {
         <div className="left-container">
           <h1>ADN de marca</h1>
           <h2>Agencia Nexus Marketing</h2>
-          <p>Descubre una nueva dimensión en el diseño de marca con Nexus Marketing. Nuestro equipo será tu aliado estratégico en este proceso de creación y fortalecimiento de tu identidad de marca en el mundo digital y más allá</p>
+          <p>Descubre una nueva dimensión en el diseño de marca con Nexus Marketing. Nuestro equipo será tu aliado estratégico en este proceso de creación y fortalecimiento de tu identidad de marca en el mundo digital y más allá.</p>
           <a href="/contacto">
             <img src="./button_consultoria.svg" alt="" />
           </a>
@@ -60,11 +60,11 @@ function Planes () {
         description="Ideal para proyectos iniciales."
         price="$700 MXN"
         features={[
-          'Diseño de logo',
-          '3 conceptos de logos',
-          'Logo en jpeg y png alta calidad',
+          'Diseño de logo.',
+          '3 conceptos de logos.',
+          'Logo en jpeg y png alta calidad.',
           '3 revisiones',
-          'Entrega en 3 días',
+          'Entrega en 3 días.',
         ]}
       />
 
@@ -73,11 +73,11 @@ function Planes () {
         description="Ideal para solidificar una marca o un rediseño."
         price="$1,700 MXN"
         features={[
-          'Diseño de logo',
-          'Paleta de colores',
-          'Tipografías',
-          'Guía y uso de marca',
-          'Entrega en 4-6 días',
+          'Diseño de logo.',
+          'Paleta de colores.',
+          'Tipografías.',
+          'Guía y uso de marca.',
+          'Entrega en 4-6 días.',
         ]}
       />
 
@@ -86,14 +86,14 @@ function Planes () {
         description="Ideal para proyecto completo"
         price="$3,450 MXN/mes"
         features={[
-          'Diseño de logo',
-          "Guía y uso de marca",
-          'Paleta de colores',
-          'Tipografías',
-          'Libro de marca pdf',
+          'Diseño de logo.',
+          "Guía y uso de marca.",
+          'Paleta de colores.',
+          'Tipografías.',
+          'Libro de marca pdf.',
           "Logos para redes",
-          'Plantillas para redes sociales',
-          'Entrega en 4-6 días',
+          'Plantillas para redes sociales.',
+          'Entrega en 4-6 días.',
         ]}
       />
     </div>

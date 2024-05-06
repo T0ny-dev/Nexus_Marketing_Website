@@ -38,7 +38,7 @@ function Planes () {
         <div className="left-container">
           <h1>Academias</h1>
           <h2>Agencia Nexus Marketing</h2>
-          <p>Ofrecemos un servicio integral de apoyo para la creación de academias digitales. Desde la planificación inicial hasta la implementación, nuestro equipo experto te guiará en cada paso del proceso. Con soluciones personalizadas y asesoramiento especializado, te ayudamos a llevar tu visión educativa al mundo digital de manera efectiva y exitosa</p>
+          <p>Ofrecemos un servicio integral de apoyo para la creación de academias digitales. Desde la planificación inicial hasta la implementación, nuestro equipo experto te guiará en cada paso del proceso. Con soluciones personalizadas y asesoramiento especializado, te ayudamos a llevar tu visión educativa al mundo digital de manera efectiva y exitosa.</p>
           <a href="/contacto">
             <img src="./button_consultoria.svg" alt="" />
           </a>
@@ -54,14 +54,14 @@ function Planes () {
     <div className="Princing">
     <PricingPackage
         name="Tu proyecto de educación"
-        description="Inicia tu academia personal y democraticemos la educacion por un valor simbolico"
+        description="Inicia tu academia personal."
         price="Cotizar"
         features={[
-          'Asesoría',
-          'Propuesta de plataforma educativa',
-          'Apoyo en la elaboración de capacitaciones',
-          'Pagos online',
-          'Capacitación para uso de plataforma',
+          'Asesoría.',
+          'Propuesta de plataforma educativa.',
+          'Apoyo en la elaboración de capacitaciones.',
+          'Pagos online.',
+          'Capacitación para uso de plataforma.',
         ]}
       />
 

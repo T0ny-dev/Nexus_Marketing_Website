@@ -17,7 +17,7 @@ function Planes () {
       description: ' Utilizando datos y tendencias actuales, identificamos oportunidades clave para el crecimiento y las amenazas potenciales.',
     },
     {
-      title: 'Estrategia de Posicionamiento y tactica',
+      title: 'Estrategia de Posicionamiento y táctica',
       description: 'A través de un análisis detallado de tu audiencia objetivo y los canales de mercado, identificamos las mejores oportunidades para posicionar tu marca de manera efectiva',
     },
     {
@@ -60,10 +60,10 @@ function Planes () {
         description="Perfecto para pequeñas empresas o proyectos personales."
         price="$2,100 MXN"
         features={[
-          'Análisis de Mercado y Competencia',
-          'Estrategia de Posicionamiento y táctica',
-          'Plan de Comunicación y Promoción',
-          'Posicionamiento',
+          'Análisis de Mercado y Competencia.',
+          'Estrategia de Posicionamiento y táctica.',
+          'Plan de Comunicación y Promoción.',
+          'Posicionamiento.',
         ]}
       />
 

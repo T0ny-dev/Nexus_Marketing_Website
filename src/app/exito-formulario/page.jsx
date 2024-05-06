@@ -24,7 +24,7 @@ function Planes () {
         </a>
       </div>
     </div>
-      <Title  id="contact_title" text={"Gracias nos pondremos en contacto pronto"}/>
+      <Title  id="contact_title" text={"Gracias nos pondremos en contacto pronto."}/>
     <Questions/>
     <Video/>
     </div>
