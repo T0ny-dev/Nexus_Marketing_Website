@@ -50,7 +50,7 @@ function Planes () {
           <img src="./logo-agencia.svg" alt="Logo" />
           <hr />
         </div>
-        <div className="right-container" style={{ backgroundImage: `url("https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/Component%2017.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9Db21wb25lbnQgMTcucG5nIiwiaWF0IjoxNzEzOTkzMjc0LCJleHAiOjE3NDU1MjkyNzR9._94iULf-LP37RMhULMO_xDbSwVEGO8a5OKvSMjYc5tA&t=2024-04-24T22%3A13%3A50.225Z")` }}>
+        <div className="right-container-brand" style={{ backgroundImage: `url("https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/Component%2017.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9Db21wb25lbnQgMTcucG5nIiwiaWF0IjoxNzEzOTkzMjc0LCJleHAiOjE3NDU1MjkyNzR9._94iULf-LP37RMhULMO_xDbSwVEGO8a5OKvSMjYc5tA&t=2024-04-24T22%3A13%3A50.225Z")` }}>
         </div>
       </div>
       <Title text={"Diseño de Marca"}/>
