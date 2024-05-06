@@ -90,6 +90,11 @@
 }
 
 @media screen and (max-width:900px) {
+
+  .tabs__container {
+    padding: 10vh 5vw;
+  }
+
   .tab__Service {
     width: 100%;
   }

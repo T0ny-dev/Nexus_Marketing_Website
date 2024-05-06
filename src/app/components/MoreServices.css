@@ -55,6 +55,7 @@
 @media screen and (max-width:1154px) {
   .more {
    flex-direction: column;
+   padding: 10vh 6vw;
   }
   .more__solutions {
     width: 100%;

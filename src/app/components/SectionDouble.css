@@ -38,6 +38,7 @@ margin-bottom: 5vh;
 
   .section__double {
     flex-direction: column;
+    padding: 10vh 6vw;
   }
 
   .section__content {
