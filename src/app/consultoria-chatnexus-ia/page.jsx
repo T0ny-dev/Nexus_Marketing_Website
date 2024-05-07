@@ -43,7 +43,7 @@ function Planes () {
             <img src="./button_consultoria.svg" alt="" />
           </a>
         </div>
-        <div className="logo-container">
+        <div className="logo-container-icon">
           <img src="./logo-agencia.svg" alt="Logo" />
           <hr />
         </div>

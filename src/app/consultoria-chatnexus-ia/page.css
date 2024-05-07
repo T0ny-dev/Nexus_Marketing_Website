@@ -64,7 +64,7 @@
   background-repeat:none;
 }
 
-.logo-container {
+.logo-container-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,7 +72,7 @@
   position: relative; /* Necesario para posicionar el hr */
 }
 
-.logo-container img {
+.logo-container-icon img {
   max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
   animation: spin 10s linear infinite; /* Aplica la animación de giro infinito */
 
@@ -88,7 +88,7 @@
   }
 }
 
-.logo-container {
+.logo-container-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,11 +96,11 @@
   position: relative; /* Necesario para posicionar el hr */
 }
 
-.logo-container img {
+.logo-container-icon img {
   max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
 }
 
-.logo-container {
+.logo-container-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,12 +108,12 @@
   position: relative;
 }
 
-.logo-container img {
+.logo-container-icon img {
   max-width: 80%;
   z-index: 1;
 }
 
-.logo-container hr {
+.logo-container-icon hr {
   position: absolute;
   height: calc(100%);
   border: none;
@@ -122,11 +122,11 @@
   left: calc(50% - 1px);
 }
 
-.logo-container hr:first-child {
+.logo-container-icon hr:first-child {
   left: -4px;
 }
 
-.logo-container hr:last-child {
+.logo-container-icon hr:last-child {
   right: -4px;
 }
 
@@ -140,19 +140,21 @@
   .left-container {
     width: 100%;
     text-align: start;
-    padding-top: 0vh;
-    padding-right: 3vw;
+    padding-top: 10vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
     padding-bottom: 10vh;
   }
 
-  .logo-container {
+  .logo-container-icon {
     width: 100%;
     flex-direction: row;
     padding-top: 10vh;
     margin-bottom: 10vh;
+    display: none;
   }
 
-  .logo-container hr {
+  .logo-container-icon hr {
   display: none;
   }
 
