@@ -46,7 +46,7 @@ function Planes () {
           <img src="./logo-agencia.svg" alt="Logo" />
           <hr />
         </div>
-        <div className="right-container" style={{ backgroundImage: `url("/video.webp")` }}>
+        <div className="right-container-video" style={{ backgroundImage: `url("/video.webp")` }}>
         </div>
       </div>
       <Title text={"Video Contenido"}/>

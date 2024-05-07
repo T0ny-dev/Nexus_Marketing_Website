@@ -46,7 +46,7 @@ function Planes () {
           <img src="./logo-agencia.svg" alt="Logo" />
           <hr />
         </div>
-        <div className="right-container" style={{ backgroundImage: `url("/redes.webp")` }}>
+        <div className="right-container-rss" style={{ backgroundImage: `url("/redes.webp")` }}>
         </div>
       </div>
       <Title text={"Social Media"}/>

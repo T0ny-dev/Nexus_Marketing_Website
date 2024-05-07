@@ -50,7 +50,7 @@ function Planes () {
           <img src="./logo-agencia.svg" alt="Logo" />
           <hr />
         </div>
-        <div className="right-container" style={{ backgroundImage: `url("/marker.webp")` }}>
+        <div className="right-container-mk" style={{ backgroundImage: `url("/marker.webp")` }}>
         </div>
       </div>
       <Title text={"Marketing Digital"}/>

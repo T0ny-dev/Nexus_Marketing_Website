@@ -53,7 +53,7 @@
   margin-bottom: 3vh;
 }
 
-.right-container {
+.right-container-rss {
   width: 45%;
   background-image: url("/hero_Nexus.png");
   background-size: contain;
@@ -161,7 +161,7 @@
   display: none;
   }
 
-  .right-container {
+  .right-container-rss {
     width: 100%;
     height: 45vh;
     background-position: top;

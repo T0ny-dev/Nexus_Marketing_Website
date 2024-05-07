@@ -47,7 +47,7 @@ function Planes () {
           <img src="./logo-agencia.svg" alt="Logo" />
           <hr />
         </div>
-        <div className="right-container" style={{ backgroundImage: `url("/academy.webp")` }}>
+        <div className="right-container-academy" style={{ backgroundImage: `url("/academy.webp")` }}>
         </div>
       </div>
       <Title text={"Asesoría educativa"}/>
