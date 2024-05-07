@@ -9,7 +9,7 @@ function BusinessCard ({img, nombre, puesto, especialidad, correo, tel}) {
       <p>Agencia Nexus Marketing - ChatNexus IA</p>
       <p style={{maxWidth:"350px", textAlign:"center"}}> <span style={{fontWeight:"bold"}}>Especialidad:</span> {especialidad}</p>
       <p><span style={{fontWeight:"bold"}}>contacto:</span> {correo}</p>
-      <p>{tel}</p>
+      <p><span style={{fontWeight:"bold"}}>teléfono:</span> {tel}</p>
     </div>
   )
 }
