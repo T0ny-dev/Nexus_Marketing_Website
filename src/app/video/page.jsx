@@ -63,7 +63,7 @@ function Planes () {
       <PricingPackage
         name="Video Plus"
         description="Ideal para empresas medianas con necesidades más avanzadas."
-        price="$1,600 MXN/mes"
+        price="$1,600 MXN"
         features={[
           '6 videos.',
           '5 fotos.',
@@ -73,7 +73,7 @@ function Planes () {
       <PricingPackage
         name="Video Deluxe"
         description="Para empresas que necesita un equipo en marketing continuo."
-        price="$3,200 MXN/mes"
+        price="$3,200 MXN"
         features={[
           '10 videos.',
           "15 reels.",

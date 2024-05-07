@@ -54,7 +54,7 @@ function Planes () {
     <PricingPackage
         name="Redes Sociales Básico"
         description="Perfecto para pequeñas empresas o proyectos personales."
-        price="$9,999 MXN"
+        price="$9,999 MXN/mes"
         features={[
           "Redes: Facebook e Instagram.",
           'Creación de 7 Copys.',

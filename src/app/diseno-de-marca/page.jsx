@@ -84,7 +84,7 @@ function Planes () {
       <PricingPackage
         name="Paquete Branding"
         description="Ideal para proyecto completo."
-        price="$3,450 MXN/mes"
+        price="$3,450 MXN"
         features={[
           'Diseño de logo.',
           "Guía y uso de marca.",
