@@ -35,7 +35,7 @@ export default function Home() {
           <img src="./logo-agencia.svg" alt="Logo" />
           <hr />
         </div>
-        <div className="right-container" style={{ backgroundImage: `url("/hero_Nexus.png")` }}>
+        <div className="right-container-home" style={{ backgroundImage: `url("/hero_Nexus.png")` }}>
         </div>
       </div>
       <Brand/>

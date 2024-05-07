@@ -50,7 +50,7 @@ function Planes () {
           <img src="./logo-agencia.svg" alt="Logo" />
           <hr />
         </div>
-        <div className="right-container" style={{ backgroundImage: `url(https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/Component%2029.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9Db21wb25lbnQgMjkucG5nIiwiaWF0IjoxNzEzOTk0MjE0LCJleHAiOjE3NDU1MzAyMTR9.BWJUoThoUTJ70Xktz_OHmGG7d6V0btj_e1DII0o9fnw&t=2024-04-24T22%3A29%3A30.239Z")` }}>
+        <div className="right-container-web" style={{ backgroundImage: `url(https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/Component%2029.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9Db21wb25lbnQgMjkucG5nIiwiaWF0IjoxNzEzOTk0MjE0LCJleHAiOjE3NDU1MzAyMTR9.BWJUoThoUTJ70Xktz_OHmGG7d6V0btj_e1DII0o9fnw&t=2024-04-24T22%3A29%3A30.239Z")` }}>
         </div>
       </div>
       <Title text={"Sitios Web"}/>
