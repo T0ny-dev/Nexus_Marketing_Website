@@ -29,6 +29,7 @@ function Header() {
             <a href="#" onClick={handleResourcesClick}>Recursos</a>
             {showResources && (
               <ul className="resource__list">
+                <li><a href="https://nexus-todos-app.netlify.app/" target="_blank">Todo List App</a></li>
                 <li><a href="https://medium.com/@agencia.nexus.marketing" target="_blank">Blog</a></li>
                 <li><a href="https://academy.agencianexusmarketing.com/">Academia</a></li>
                 <li><a href="https://agencia-nexus-marketing.notion.site/Presentaci-n-372754cdab1748d79afbe17f00f887bb" target="_blank">Notion Nexus</a></li>
