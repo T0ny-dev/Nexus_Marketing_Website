@@ -7,7 +7,7 @@ function Tony () {
   return (
     <div className="tarjet">
       <BusinessCard
-        img={"/logo-nexus.svg"}
+        img={"/logo-nm.svg"}
         nombre={"Héctor del Angel"}
         puesto={"CEO - Director"}
         especialidad={"Dirección de negocios e Innovación"}
