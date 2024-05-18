@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Title from '@/app/components/ui/Title';
 import "./Tabs.css"
 import ButtonArrow from './ui/ButtonArrow';
-import ButtonArrowTranparent from './ui/ButtonArrowTransparent';
+
 
 const Tabs = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);
@@ -27,8 +27,9 @@ const Tabs = ({ tabs }) => {
           <div className='tab__Service'>
             <h3>{tabs[activeTab].label}</h3>
             <div className='tab_buttons'>
-              <ButtonArrow text={"Consultar"}/>
-              <ButtonArrowTranparent text={"broshure"}/>
+              <a href={tabs[activeTab].link}>
+                <ButtonArrow text={"Consultar"}/>
+              </a>
             </div>
           </div>
           <div className='tab__image'>

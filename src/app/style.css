@@ -50,6 +50,10 @@
 
 }
 
+#mobile-reel {
+  display: none;
+}
+
 
 @keyframes spin {
   0% {
@@ -103,8 +107,14 @@
 }
 
 @media screen and (max-width:900px) {
+
+  #mobile-reel {
+    display: flex;
+  }
+
+
   .hero_conte {
-    flex-direction:column;
+    flex-direction:column-reverse;
     height: auto;
     padding-top: 10vh;
   }
@@ -112,7 +122,7 @@
   .left-container-main {
     width: 100%;
     text-align: start;
-    padding-top: 12vh;
+    padding-top: 10vh;
     padding-right: 5vw;
     padding-left: 5vw;
     padding-bottom: 10vh;
