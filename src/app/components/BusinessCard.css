@@ -9,6 +9,10 @@
   gap: 2vh;
 }
 
+.businesscard p {
+  text-align: center;
+}
+
 .businesscard img {
   border-radius: 100%;
   width: 220px;
@@ -27,6 +31,7 @@
 
 .businesscard h2 {
   font-size: 3em;
+  text-align: center;
 }
 
 .title_work {

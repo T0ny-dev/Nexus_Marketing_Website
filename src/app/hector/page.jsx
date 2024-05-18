@@ -11,6 +11,8 @@ function Tony () {
         nombre={"Héctor del Angel"}
         puesto={"CEO - Director"}
         especialidad={"Dirección de negocios e Innovación"}
+        tel={"+52 961 718 4871"}
+        correo={"hdelangel@hotmail.com"}
       />
       <Video/>
     </div>
