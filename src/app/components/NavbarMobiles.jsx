@@ -59,7 +59,7 @@ function NavbarMobiles() {
             <hr  className='divisor'/>
             <li><a href="/chatnexus">ChatNexus IA</a></li>
             <hr  className='divisor'/>
-            <li id='contacto_margin'><a href="/contacto" class="button__primary">Contacto</a></li>
+            <li id='contacto_margin'><a href="/contacto" id="button__primary__mobile">Contacto</a></li>
           </ul>
         </div>
       )}

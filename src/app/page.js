@@ -10,6 +10,7 @@ import SectionDouble from "./components/SectionDouble";
 import MoreServices from "./components/MoreServices";
 import Questions from "./components/Questions";
 import Video from "./components/ui/Video";
+import WhatsAppIcon from "./components/WhatsAppIcon";
 
 
 
@@ -35,6 +36,7 @@ export default function Home() {
       <Tabs tabs={tabs}/>
       <SectionDouble/>
       <MoreServices/>
+      <WhatsAppIcon/>
       <Questions/>
       <Video/>
     </main>
