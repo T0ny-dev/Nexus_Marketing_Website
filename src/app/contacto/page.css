@@ -4,7 +4,7 @@
 
 
 
-.hero {
+.hero-contacto {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,25 +16,25 @@
   height: auto; /* Adjust height as needed */
 }
 
-.hero-content {
+.hero-content-contacto {
   max-width: 50%;
 }
 
-.hero-title {
+.hero-title-contacto {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-.hero-text {
+.hero-text-contacto {
   font-size: 1.2rem;
   line-height: 1.5;
 }
 
-.hero-image-container {
+.hero-image-container-contacto {
   max-width: 40%;
 }
 
-.hero-image {
+.hero-image-contacto {
   max-width: 100%;
   height: auto;
   border-radius: 10px; /* Optional: for rounded corners */
@@ -42,26 +42,26 @@
 
 /* Media Queries */
 @media (max-width: 768px) {
-  .hero {
+  .hero-contacto {
     flex-direction: column;
     text-align: center;
     height: auto;
     padding-top: 20vh;
   }
 
-  .hero-content {
+  .hero-content-contacto {
     max-width: 100%;
   }
 
-  .hero-title {
+  .hero-title-contacto {
     font-size: 2rem;
   }
 
-  .hero-text {
+  .hero-text-contacto {
     font-size: 1rem;
   }
 
-  .hero-image-container {
+  .hero-image-container-contacto {
     max-width: 100%;
     margin-top: 20px;
   }

@@ -12,15 +12,15 @@ function Planes () {
 
   return (
     <div className="plan">
-      <div className="hero">
-        <div className="hero-content">
-          <h1 className="hero-title">Transforma tu Negocio</h1>
-          <p className="hero-text">
+      <div className="hero-contacto">
+        <div className="hero-content-contacto">
+          <h1 className="hero-title-contacto">Transforma tu Negocio</h1>
+          <p className="hero-text-contacto">
             En Nexus Marketing, combinamos inteligencia artificial y estrategias de marketing digital para acelerar tu transformación digital en Reynosa, Tamaulipas.
           </p>
         </div>
-        <div className="hero-image-container">
-          <img src="/contacto.png" alt="Marketing Image" className="hero-image" />
+        <div className="hero-image-container-contacto">
+          <img src="/contacto.png" alt="Marketing Image" className="hero-image-contacto" />
         </div>
       </div>
     <Forms/>
