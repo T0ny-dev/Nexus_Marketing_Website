@@ -215,7 +215,7 @@
 .resource__list {
   position: absolute;
   top: 100%; /* Posición debajo del elemento padre */
-  left: 12%;
+  left: 14%;
   background-color: #0A0A0A;
   width: 200px; /* Ancho de la lista */
   padding: 10px;

@@ -1,8 +1,7 @@
 "use client"
 
-import Title from "../components/ui/Title";
+
 import MoreServices from "../components/MoreServices";
-import Hero from "../components/Hero";
 import "./page.css"
 import Questions from "../components/Questions";
 import Video from "../components/ui/Video";
@@ -13,13 +12,17 @@ function Planes () {
 
   return (
     <div className="plan">
-      <Hero 
-            title={"ChatNexus IA"}
-            subtitle={"Agencia Nexus Marketing"}
-            parraf={"¡Descubre una nueva era en el Marketing Digital! Nos destacamos por nuestra innovadora estrategia respaldada por tecnología de vanguardia. Con nuestro ChatNexus IA impulsado por la Inteligencia Artificial, transformamos la manera en que interactúas con tu audiencia."}
-            image={"https://qxztypvwedaskoflnbno.supabase.co/storage/v1/object/sign/broshure/bot.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJicm9zaHVyZS9ib3QucG5nIiwiaWF0IjoxNzE0MDcwNDgxLCJleHAiOjE3NDU2MDY0ODF9.CSRyxXUovWFNEsUX11wgk72x-Gtv9OmnAQRn3zjkysc&t=2024-04-25T19%3A40%3A35.159Z"}
-      />
-      <Title text={"Formulario de contacto"}/>
+      <div className="hero">
+        <div className="hero-content">
+          <h1 className="hero-title">Transforma tu Negocio</h1>
+          <p className="hero-text">
+            En Nexus Marketing, combinamos inteligencia artificial y estrategias de marketing digital para acelerar tu transformación digital en Reynosa, Tamaulipas.
+          </p>
+        </div>
+        <div className="hero-image-container">
+          <img src="/contacto.png" alt="Marketing Image" className="hero-image" />
+        </div>
+      </div>
     <Forms/>
     <MoreServices/>
 
