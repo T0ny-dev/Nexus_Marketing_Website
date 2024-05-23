@@ -3,14 +3,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 1vh 3vw;
-  background: linear-gradient(to right, #0A0A0A 0%, #E2FF69 200%); /* Colores del gradiente de izquierda a derecha */
+  background: linear-gradient(to right, #0A0A0A 0%, #69A9FF 50%, #E2FF69 100%); /* Colores del gradiente de izquierda a derecha */
 }
 .Brand:nth-child(1) {
-  background: linear-gradient(to right, #0A0A0A 0%, #E2FF69 100%);
+  background: linear-gradient(to right, #0A0A0A 0%, #69A9FF 50%, #E2FF69 100%);
 }
 
 .Brand:nth-child(2) {
-  background: linear-gradient(to right, #0A0A0A 20%, #E2FF69 80%);
+  background: linear-gradient(to right, #0A0A0A 0%, #69A9FF 50%, #E2FF69 100%);
 }
 
 

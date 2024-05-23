@@ -23,7 +23,7 @@ function Header() {
         </a>
         <ul className="header__links">
           <li onClick={handleServicesClick}>
-            Servicios
+            Soluciones
           </li>
           <li id="resource_link_simbol">
             <a href="#" onClick={handleResourcesClick}>Recursos</a>
@@ -37,10 +37,10 @@ function Header() {
             )}
           </li>
           <li>
-            <a href="https://www.behance.net/agencia-nexus" target="_blank">Portafolio Behance</a>
+            <a href="https://www.behance.net/agencia-nexus" target="_blank">Portafolio</a>
           </li>
           <li>
-            <a href="/planes">Planes 360° Marketing</a>
+            <a href="/planes">Planes 360°</a>
           </li>
           <li className="nexus_ia_beta">
             <a href="/chatnexus">ChatNexus IA</a>

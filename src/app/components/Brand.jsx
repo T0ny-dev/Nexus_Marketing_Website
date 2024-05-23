@@ -7,11 +7,11 @@ function Brand () {
         <h3>Diversas Tecnologías</h3>
       </div>
       <div className="Brand__logos">
-        <img src="./chatgpt.png" alt="" />
-        <img src="./wordpress.png" alt="" />
-        <img src="./next-l.svg" alt="" />
-        <img src="./figma.png" alt="" />
-        <img src="./astro.png" alt="" />
+        <img src="./chatgpt.png" alt="logo chatgpt reynosa" />
+        <img src="./wordpress.png" alt="logo wordpress" />
+        <img src="./next-l.svg" alt="logo next" />
+        <img src="./figma.png" alt="logo figma" />
+        <img src="./astro.png" alt="logo astoja" />
       </div>
     </div>
   )

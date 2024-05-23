@@ -1,17 +1,16 @@
 .button__primary {
-  border: #fff 1px solid;
+  border: none;
   padding: 2vh 4vw;
-  background-color: transparent;
-  color: #fff;
+  background: linear-gradient(to right, #E2FF69, #69A9FF);
+  color: #0a0a0a;
   font-family: "Inter", sans-serif;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius:100px;
   font-size: 1em;
   cursor: pointer;
 }
 
 .button__primary:hover {
-  background-image: linear-gradient(to right, #E2FF69, #0A0A0A); /* Gradiente de izquierda a derecha con tus colores personalizados */
-  background-size: 900% auto; /* Aumentamos el tamaño del gradiente para que cubra todo el botón */
-  background-position: right center; /* Inicialmente posicionamos el gradiente completamente a la derecha */
+ color: #0a0a0a;
+ background: linear-gradient(to right, #69A9FF, #E2FF69);
 }

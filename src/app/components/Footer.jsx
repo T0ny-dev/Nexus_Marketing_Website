@@ -8,11 +8,13 @@ const Footer = () => {
       <div className="footer__container">
         {/* Primer div */}
         <div className="footer__section">
-          <img src="/logo-agencia.svg" alt="Logo" className="footer__logo" />
+          <img src="/agencianexus.png" alt="Logo" className="footer__logo" />
           <p>Explora una nueva dimensión en el Marketing Digital con el respaldo de nuestro ChatNexus IA y las mejores plataformas en Inteligencia Artificial. Nexus Marketing, ubicada en Reynosa, Tamaulipas, será tu aliado estratégico en este proceso.</p>
           <div className="footer__social-icons">
             {/* Iconos de redes sociales */}
-            <i className="fab fa-facebook"></i>
+            <a href="https://www.facebook.com/people/Nexus-Marketing-Agencia/61558978942544/" target='_blank'>
+              <i className="fab fa-facebook">Facebook</i>
+            </a>
             <i className="fab fa-twitter"></i>
             <i className="fab fa-instagram"></i>
           </div>

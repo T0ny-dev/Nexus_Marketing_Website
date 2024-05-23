@@ -1,11 +1,11 @@
 .header {
-  background-color: #0A0A0A;
+  background-color: #0F0F0F;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 70px;
   padding: 0vh 3vw;
-  border-bottom: #fff 1px solid;
+  border-bottom: #2C2C2C 1px solid;
   font-family: "Inter", sans-serif;
   font-weight:normal;
   width: 100%;
@@ -33,6 +33,7 @@
   color: #fff;
   margin-left: 2.5vw;
   border-bottom: 2px solid transparent;
+  font-weight: 600;
 }
 
 .header__links li:hover {
@@ -45,7 +46,7 @@
 
 .header__button a {
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
   display: flex;
   align-items: center;
   margin-right: 3vw;
@@ -73,7 +74,7 @@
 }
 
 .logo {
-  width: 3.5em;
+  width: 3em;
 }
 
 /* div services*/
@@ -202,7 +203,7 @@
   border-radius: 50px;
   padding: 2px 8px;
   position: absolute;
-  font-weight: bolder;
+  font-weight: 400;
   top: -2px;
   right: -50px;
   font-size: 12px;

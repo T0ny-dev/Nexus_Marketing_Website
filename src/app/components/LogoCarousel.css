@@ -1,0 +1,53 @@
+/* LogoCarousel.css */
+.carousel-container {
+  overflow: hidden;
+  padding-top: 15vh;
+  width: 100%;
+  position: relative;
+  background-color: #0a0a0a;
+}
+
+.carousel-track {
+  display: flex;
+  width: calc(250px * 10); /* Adjust based on the number of logos */
+  animation: scroll 20s linear infinite;
+}
+
+.carousel-item {
+  flex: 0 0 250px; /* Adjust the width of each logo item */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 60px; 
+  margin-left: 2vw;
+  margin-left: 2vw;/* Adjust the height of logos */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .carousel-item {
+    flex: 0 0 150px; /* Adjust the width of each logo item */
+  }
+
+  .carousel-item img {
+    max-height: 70px; /* Adjust the height of logos */
+  }
+
+  .carousel-track {
+    width: calc(150px * 10); /* Adjust based on the number of logos */
+    animation: scroll 40s linear infinite;
+  }
+}

@@ -4,7 +4,7 @@ import "./ButtonArrowTransparent.css"
 function ButtonArrowTranparent ({text}) {
   return(
     <button className="button_arrow--transparent">
-      {text} <img src="/arrow.png" alt="" />
+      {text} <img src="/arrow.png" alt="flecha" />
     </button>
   )
 }

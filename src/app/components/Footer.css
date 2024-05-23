@@ -1,5 +1,8 @@
 .footer {
-  background-color: #000000;
+  background: linear-gradient(to top right, 
+                #000 30%, 
+                #69A9FF 80%, 
+                #E2FF69 110%);
   padding: 10vh 3vw;
   font-family: Arial, Helvetica, sans-serif;
 }

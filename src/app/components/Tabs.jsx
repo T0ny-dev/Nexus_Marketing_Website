@@ -33,12 +33,12 @@ const Tabs = ({ tabs }) => {
             </div>
           </div>
           <div className='tab__image'>
-            <img src={tabs[activeTab].image} alt="" />
+            <img src={tabs[activeTab].image} alt="nexus servicios" />
           </div>
         </div>
         <div className={`tab-pane ${activeTab === activeTab ? 'active' : ''}`}>
           <div className='tab__image'>
-            <img src="/Peeling.webp" alt="" />
+            <img src="/Peeling.webp" alt="logo nexus marketing" />
           </div>
           <div className='tab__Service'>
             <h3>Entregables</h3>

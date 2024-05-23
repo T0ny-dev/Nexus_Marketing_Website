@@ -1,0 +1,71 @@
+/* VideoHero.css */
+.video-hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  z-index: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.p_video {
+  font-size: 1.5em;
+  width: 60vw;
+  margin-bottom: 40px;
+}
+
+#cta-button {
+  background: transparent;
+  border: 3px solid #fff;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  
+}
+
+@media screen and (max-width:900px) {
+  h1 {
+    margin-top: 10vh;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .p_video {
+    font-size: 1.2em;
+    width: 80vw;
+    margin-bottom: 40px;
+  }
+}
