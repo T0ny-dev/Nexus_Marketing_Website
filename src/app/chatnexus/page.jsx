@@ -3,6 +3,7 @@ import "./page.css";
 import Video from "@/app/components/ui/Video";
 import TitleParagraph from "../components/ui/TitleParagraph";
 import CardContainer from "../components/ui/CardContainer";
+import WhatsAppIcon from "../components/WhatsAppIcon";
 
 function Chatnexusia() {
 
@@ -61,7 +62,7 @@ function Chatnexusia() {
     />
       <CardContainer cards={cardsData}/>
       <Video/>
-
+      <WhatsAppIcon/>
     </div>
   );
 }

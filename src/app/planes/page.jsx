@@ -5,6 +5,7 @@ import "./page.css"
 import PricingPackage from "../components/ui/Pricing";
 import Questions from "../components/Questions";
 import Video from "../components/ui/Video";
+import WhatsAppIcon from "../components/WhatsAppIcon";
 
 function Planes () {
   return (
@@ -54,6 +55,7 @@ function Planes () {
     </div>
     <Questions/>
     <Video/>
+    <WhatsAppIcon/>
     </div>
   )
 }

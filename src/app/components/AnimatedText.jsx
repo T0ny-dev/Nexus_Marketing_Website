@@ -9,7 +9,8 @@ const AnimatedText = () => {
         <div className="circle"></div>
       </div>
       <span id="description_p">
-      Nexus Marketing, en Reynosa, Tamaulipas, ofrecemos soluciones de vanguardia al combinar la inteligencia artificial con estrategias especializadas de marketing digital y desarrollo web. Nuestra agencia se distingue por proporcionar soluciones personalizadas que impulsan la transformación digital de tu negocio, mejorando su eficiencia y competitividad en el mercado.      </span>
+      Marketing Digital, Diseño de Páginas Web e Inteligencia Artificial en Reynosa, Tamaulipas. En Nexus Marketing, ubicada en Reynosa, Tamaulipas, ofrecemos soluciones innovadoras que combinan la inteligencia artificial con estrategias especializadas en marketing digital y diseño de páginas web. Nuestra agencia se especializa en proporcionar servicios personalizados que impulsan la transformación digital de tu negocio, mejorando su eficiencia y competitividad en el mercado.
+      </span>
       <div className="button-container">
         <a href="https://drive.google.com/file/d/1qFzhEmLDRzIHQ6x3FlLzlCLFJtopLEDz/view?usp=sharing" target="_blank" id="presentation_arrow">
             <ButtonArrowTranparent text={"Presentación"}/>

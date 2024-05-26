@@ -31,7 +31,7 @@ function NavbarMobiles() {
           <ul>
             <li><a href="https://www.chat.agencianexusmarketing.com/" target="_blank">Iniciar Sesión</a></li>
             <hr  className='divisor'/>
-            <li onClick={toggleServicios} id='services_link'>Servicios</li>
+            <li onClick={toggleServicios} id='services_link'>Soluciones</li>
             {serviciosOpen && (
               <ul>
                 <li><a href="/diseno-de-marca" >Diseño de Marca</a></li>

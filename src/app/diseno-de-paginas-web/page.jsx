@@ -39,9 +39,9 @@ function Planes () {
     <div className="plan">
       <div className="hero">
         <div className="left-container">
-          <h1>Diseño web</h1>
+          <h1>Diseño de páginas web</h1>
           <h2>Agencia Nexus Marketing</h2>
-          <p>Explora una nueva dimensión en el diseño web con Nexus Marketing. Nuestro equipo en Reynosa te ofrece un servicio dedicado para crear y potenciar la presencia en línea de tu marca. Con nuestra experiencia y compromiso, te acompañaremos en el proceso de desarrollo de un sitio web que refleje la esencia y la visión de tu negocio.</p>
+          <p>Diseño de páginas web en reynosa, una nueva dimensión en el diseño web con Nexus Marketing. Nuestro equipo en Reynosa te ofrece un servicio dedicado para crear y potenciar la presencia en línea de tu marca. Con nuestra experiencia y compromiso, te acompañaremos en el proceso de desarrollo de un sitio web que refleje la esencia y la visión de tu negocio.</p>
           <a href="/contacto">
             <img src="./button_consultoria.svg" alt="" />
           </a>

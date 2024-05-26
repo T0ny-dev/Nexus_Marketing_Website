@@ -1,6 +1,6 @@
 .plan {
   background-color: #0a0a0a;
-  padding-top: 90px;
+  padding-top: 70px;
 }
 
 .planes_planes p {
@@ -59,7 +59,7 @@
   background-image: url("/hero_Nexus.png");
   background-size: contain;
   background-position: center;
-  background-repeat:none;
+  background-repeat:no-repeat;
 }
 
 .logo-container-icon {

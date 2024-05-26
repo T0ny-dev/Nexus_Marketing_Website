@@ -66,6 +66,26 @@ function Planes () {
           'Posicionamiento.',
         ]}
       />
+      <PricingPackage
+        name="Anuncios Display Google"
+        description="Diseño de tu anuncio"
+        price="Cotizar"
+        features={[
+          'Diseño.',
+          'Métricos.',
+          'Palabras Clave.',
+        ]}
+      />
+      <PricingPackage
+        name="Anuncios para Facebook"
+        description="Diseño de tu anuncio"
+        price="Cotizar"
+        features={[
+          'Diseño.',
+          'Métricos.',
+          'Palabras Clave.',
+        ]}
+      />
 
     </div>
     <div className="letter">

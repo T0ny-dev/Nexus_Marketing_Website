@@ -10,7 +10,7 @@ const Tabs = ({ tabs }) => {
 
   return (
     <div className='tabs__container'>
-      <Title text={"Servicios"}/>
+      <Title text={"Soluciones"}/>
       <div className="tabs">
         {tabs.map((tab, index) => (
           <span

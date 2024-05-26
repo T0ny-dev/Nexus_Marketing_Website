@@ -1,6 +1,6 @@
 .plan {
   background-color: #0a0a0a;
-  padding-top: 90px;
+  padding-top: 70px;
 }
 
 .planes_planes p {
@@ -22,9 +22,6 @@
   color: #fff;
   padding: 2vh 3vw;
 }
-
-
-/**css medias**/
 
 .hero {
   background-color: #0A0A0A;
@@ -57,7 +54,9 @@
   margin-bottom: 3vh;
 }
 
-.right-container-ia {
+
+
+.right-container-web {
   width: 45%;
   background-image: url("/hero_Nexus.png");
   background-size: cover;
@@ -93,7 +92,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column-reverse;
+  flex-direction: column;
   position: relative; /* Necesario para posicionar el hr */
 }
 
@@ -131,20 +130,21 @@
   right: -4px;
 }
 
+/*page css medias*/
+
 @media screen and (max-width:900px) {
   .hero {
     flex-direction:column;
     height: auto;
-    padding-top: 0;
   }
   
   .left-container {
     width: 100%;
     text-align: start;
     padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-right: 5vw;
     padding-left: 5vw;
-    padding-bottom: 10vh;
   }
 
   .logo-container-icon {
@@ -155,15 +155,25 @@
     display: none;
   }
 
-  .logo-container-icon hr {
+  .logo-container hr {
   display: none;
   }
 
-  .right-container-ia {
+  .right-container-web {
     width: 100%;
     height: 80vh;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .Princing {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
+
+/* css medias*/
+
+
+

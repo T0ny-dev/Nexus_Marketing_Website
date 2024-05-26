@@ -67,18 +67,24 @@ function Header() {
             </a>
           </div>
           <div className="service__item">
-            <h3>Servicios</h3>
+            <h3>Soluciones</h3>
             <ul>
-              <li><a href="/diseno-de-marca">Diseño de marca</a></li>
-              <li><a href="/diseno-web">Diseño web</a></li>
-              <li><a href="/video">Video</a></li>
-              <li><a href="/marketing-digital">Marketing Digital</a></li>
-              <li><a href="/redes-sociales">Redes sociales</a></li>
-              <li><a href="/consultoria-chatnexus-ia">Consultoría ChatNexus IA</a></li>
-              <li><a href="/marketing-para-academias">Marketing para academias</a></li>
+              <li><a href="/diseno-de-marca" id="diseño-marca">Diseño de marca</a></li>
+              <li><a href="/diseno-de-paginas-web" id="diseño-web">Diseño de páginas web</a></li>
+              <li><a href="/desarrollo-web" id="diseño-web">Desarrollo web</a></li>
+              <li><a href="/video" id="video-web">Video</a></li>
+              <li><a href="/marketing-digital" id="web-marketing">Marketing Digital</a></li>
+              <li><a href="/gestion-de-redes-sociales" id="rss">Gestión de redes sociales</a></li>
+              <li><a href="/communty-manager" id="rss">Community Manager</a></li>
+              <li><a href="/consultoria-chatnexus-ia" id="ia-m">Consultoría ChatNexus IA</a></li>
+              <li><a href="/marketing-para-academias" id="ac">Marketing para academias</a></li>
+              <li><a href="/chatbots" id="ia-m">Chatbots</a></li>
+              <li><a href="/menu-digital" id="diseño-web">Menús digitales</a></li>
+              <li><a href="/tarjeta-digitales" id="diseño-web">Tarjetas Digitales</a></li>
+              <li><a href="/videos-con-dron" id="video-web">Videos con dron</a></li>
             </ul>
           </div>
-          <div className="service__item">
+          <div className="service__item-3">
             <img src="/ia_nexus.webp" alt="Service 2" />
             <h3 id="ia">Inteligencia Artificial en Marketing</h3>
             <a id="ia_link" href="/chatnexus">Descubre ChatNexus IA</a>

@@ -35,7 +35,7 @@ function Planes () {
     <div className="plan">
       <div className="hero">
         <div className="left-container">
-          <h1>Redes Sociales</h1>
+          <h1>Communty Manager</h1>
           <h2>Agencia Nexus Marketing</h2>
           <p>Potencia tu presencia en redes sociales con nuestro servicio. Creamos contenido atractivo y gestionamos campañas publicitarias para conectar con tu audiencia. Imagina 100 anuncios generados en 15 minutos para impulsar tu marca al siguiente nivel.</p>
           <a href="/contacto">
