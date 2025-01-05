@@ -11,7 +11,6 @@ import Tabs from "./components/Tabs";
 import SectionDouble from "./components/SectionDouble";
 import MoreServices from "./components/MoreServices";
 import Questions from "./components/Questions";
-import Video from "./components/ui/Video";
 import WhatsAppIcon from "./components/WhatsAppIcon";
 
 
@@ -37,7 +36,6 @@ export default function Home() {
     <main className={styles.main}>
       <VideoHero/>
       <div id="mobile-reel">
-        <Video/>
       </div>
       <Brand/>
       <AnimatedText/>
@@ -49,7 +47,6 @@ export default function Home() {
       <MoreServices/>
       <WhatsAppIcon/>
       <Questions/>
-      <Video/>
     </main>
   );
 }

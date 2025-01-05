@@ -10,9 +10,6 @@ function CardContainer({ cards }) {
             <h2>{card.title}</h2>
             <p>{card.paragraph}</p>
           </div>
-          <div className="card-image">
-            <img src={card.image} alt={card.title} />
-          </div>
         </div>
       ))}
     </div>

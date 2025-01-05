@@ -72,7 +72,6 @@ function Planes () {
       />
     <MoreServices/>
     <Questions/>
-    <Video/>
     </div>
   )
 }
