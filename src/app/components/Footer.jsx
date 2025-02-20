@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="footer__section">
           <h3>Contacto</h3>
           <p>Reynosa, Tamaulipas, MX.</p>
-          <p>Teléfono: +52 899 204 5582</p>
+          <p>Teléfono: +52 899 899 4114</p>
           <p>Correo:nexus.marketing.reynosa@gmail.com</p>
         </div>
       </div>

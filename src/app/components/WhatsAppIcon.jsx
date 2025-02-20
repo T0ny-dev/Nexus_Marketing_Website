@@ -3,7 +3,7 @@ import './WhatsAppIcon.css';
 
 const WhatsAppIcon = () => {
   return (
-    <a href="https://wa.link/apmmxl" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
+    <a href="https://w.app/qvnyv0" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
       <img src="/whatsapp.svg" alt="WhatsApp" />
     </a>
   );
